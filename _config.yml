@@ -1,8 +1,10 @@
-# Replace these key sections:
+# Basic Site Settings
 title: "Bedru Yimam Ahmed | በድሩ ይማም አህመድ"
 url: "https://bedruyimam.github.io"
 baseurl: ""  # Keep empty for username.github.io
 site_theme: "mint"
+
+# Site Author
 author:
   name: "Bedru Yimam"
   bio: "Your research bio here"
@@ -13,7 +15,9 @@ author:
   github: "BedruYimam"
   orcid: "https://orcid.org/YOUR_ORCID"
   linkedin: "your-linkedin-username"
-  publication_category:
+
+# Publication Categories
+publication_category:
   journal:
     title: 'Journal Articles'
   conference:
@@ -24,10 +28,23 @@ author:
     title: 'Theses & Dissertations'
   book:
     title: 'Books & Chapters'
-    analytics:
+
+# Analytics
+analytics:
   provider: "google-analytics-4"
   google:
     tracking_id: "G-XXXXXXXXXX"  # Your GA4 Measurement ID
-    og_image: "/images/social-preview.jpg"  # 1200x630px
+
+# Social Sharing
+og_image: "/images/social-preview.jpg"  # 1200x630px
 twitter:
   username: "yourusername"
+
+# IMPORTANT: Must include _pages
+include:
+  - _pages
+  - _posts
+  - _publications
+  - _teaching
+  - _talks
+  - _portfolio
