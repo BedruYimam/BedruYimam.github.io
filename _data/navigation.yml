@@ -1,6 +1,7 @@
 # _data/navigation.yml
-
-sidebar-nav:
+main:
+  - title: "Home"
+    url: /
   - title: "About"
     url: /about/
   - title: "Research"
@@ -8,10 +9,10 @@ sidebar-nav:
     children:
       - title: "Publications"
         url: /publications/
-      - title: "Research Areas"
-        url: /research/areas/
       - title: "Projects"
         url: /research/projects/
+      - title: "Research Areas"
+        url: /research/areas/
   - title: "Teaching"
     url: /teaching/
     children:
@@ -21,7 +22,7 @@ sidebar-nav:
         url: /teaching/materials/
       - title: "Student Supervision"
         url: /teaching/supervision/
-  - title: "Talks & Presentations"
+  - title: "Talks"
     url: /talks/
   - title: "Portfolio"
     url: /portfolio/
