@@ -28,10 +28,7 @@ classes: wide
 </nav>
 
 <div class="about-layout">
-  
- 
-
-  <!-- Right Column: Biography and Details (Centered Content) -->
+  <!-- Biography and Details (Centered Content) -->
   <div class="right-column">
     
     <!-- Biography Section -->
@@ -152,264 +149,247 @@ classes: wide
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 <style>
+/* CSS Variables for Consistent Styling */
+:root {
+  --primary-color: #2e8b57;
+  --secondary-color: #3cb371;
+  --dark-color: #2c3e50;
+  --text-color: #555;
+  --light-bg: #f8f9fa;
+  --white: #ffffff;
+  --shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  --shadow-light: 0 3px 15px rgba(0, 0, 0, 0.05);
+  --border-radius: 10px;
+  --transition: all 0.3s ease;
+}
+
 /* Main Layout Structure */
 .about-layout {
-  display: grid;
-  grid-template-columns: 350px 1fr;
-  gap: 3rem;
-  max-width: 1400px;
+  max-width: 1000px;
   margin: 2rem auto;
   padding: 0 2rem;
 }
 
-/* Left Column - Photo Section */
-.left-column {
-  position: sticky;
-  top: 2rem;
-  height: fit-content;
-  align-self: start;
-}
-
-.profile-card {
-  background: white;
-  padding: 2rem;
-  border-radius: 15px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
-  text-align: center;
-  border: 1px solid #e8f5e8;
-}
-
-.profile-photo {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  border: 5px solid #2e8b57;
-  object-fit: cover;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 4px 15px rgba(46, 139, 87, 0.15);
-}
-
-.profile-name {
-  margin-bottom: 0.5rem;
-  color: #2c3e50;
-  font-size: 1.8rem;
-}
-
-.profile-title {
-  color: #2e8b57;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-
-.profile-info {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 0.8rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-}
-
-.profile-info i {
-  color: #2e8b57;
-  min-width: 20px;
-}
-
-.profile-buttons {
-  margin: 1.5rem 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-}
-
-.btn--primary {
-  padding: 0.8rem 1.5rem;
-  text-decoration: none;
-  border-radius: 30px;
-  font-weight: 600;
-  display: block;
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.cv-btn {
-  background: #2e8b57;
-  color: white;
-}
-
-.contact-btn {
-  background: white;
-  color: #2e8b57;
-  border: 2px solid #2e8b57;
-}
-
-.btn--primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(46, 139, 87, 0.3);
-}
-
-/* Right Column - Centered Content */
+/* Centered Content Column */
 .right-column {
-  max-width: 800px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .content-section {
   margin-bottom: 3rem;
+  animation: fadeIn 0.5s ease-out;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Section Titles */
 .section-title {
-  color: #2e8b57;
+  color: var(--primary-color);
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid #e8f5e8;
   font-size: 1.8rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background: var(--secondary-color);
 }
 
 /* Biography Styling */
 .biography-content {
-  background: white;
+  background: var(--white);
   padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-light);
+  border-left: 4px solid var(--primary-color);
 }
 
 .biography-content p {
   line-height: 1.7;
-  color: #555;
+  color: var(--text-color);
   margin-bottom: 1rem;
   text-align: justify;
+  font-size: 1.05rem;
+}
+
+.biography-content p:last-child {
+  margin-bottom: 0;
 }
 
 /* Education Styling */
 .education-item {
-  background: #f8f9fa;
-  padding: 1.5rem;
-  border-left: 4px solid #2e8b57;
-  border-radius: 0 8px 8px 0;
+  background: var(--light-bg);
+  padding: 1.8rem;
+  border-left: 4px solid var(--primary-color);
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
   margin-bottom: 1.5rem;
+  transition: var(--transition);
+}
+
+.education-item:hover {
+  transform: translateX(5px);
+  box-shadow: var(--shadow);
 }
 
 .education-item:first-child {
-  border-left-color: #3cb371;
+  border-left-color: var(--secondary-color);
 }
 
 .education-degree {
-  color: #2c3e50;
+  color: var(--dark-color);
   margin-top: 0;
   margin-bottom: 0.8rem;
   font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .education-info {
-  color: #555;
+  color: var(--text-color);
   margin-bottom: 0.5rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.5rem;
+  font-size: 1rem;
 }
 
 .education-info i {
-  color: #2e8b57;
+  color: var(--primary-color);
   min-width: 20px;
+  margin-top: 0.2rem;
 }
 
 /* Research Focus */
 .research-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
   margin-top: 1rem;
 }
 
 .research-card {
-  background: white;
-  padding: 1.8rem;
-  border-radius: 10px;
-  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
-  border-top: 4px solid #2e8b57;
-  transition: transform 0.3s ease;
+  background: var(--white);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-light);
+  border-top: 4px solid var(--primary-color);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .research-card:nth-child(2) {
-  border-top-color: #3cb371;
+  border-top-color: var(--secondary-color);
 }
 
 .research-card:hover {
   transform: translateY(-5px);
+  box-shadow: var(--shadow);
 }
 
 .research-card h3 {
-  color: #2c3e50;
+  color: var(--dark-color);
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.8rem;
+  font-weight: 600;
 }
 
 .research-card i {
-  color: #2e8b57;
+  color: var(--primary-color);
+  font-size: 1.3rem;
 }
 
 .research-card:nth-child(2) i {
-  color: #3cb371;
+  color: var(--secondary-color);
 }
 
 .research-card p {
-  color: #555;
+  color: var(--text-color);
   line-height: 1.6;
-  font-size: 0.95rem;
+  font-size: 1rem;
   margin: 0;
+  flex-grow: 1;
 }
 
 /* Academic Positions */
 .position-card {
-  background: #f8f9fa;
+  background: var(--light-bg);
   padding: 2rem;
-  border-radius: 10px;
+  border-radius: var(--border-radius);
+  border: 1px solid rgba(46, 139, 87, 0.1);
 }
 
 .position-card h3 {
-  color: #2c3e50;
+  color: var(--dark-color);
   margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 1.3rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
 .position-info {
-  color: #555;
+  color: var(--text-color);
   margin-bottom: 0.8rem;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.8rem;
+  font-size: 1.05rem;
 }
 
 .position-info i {
-  color: #2e8b57;
-  min-width: 20px;
+  color: var(--primary-color);
+  min-width: 24px;
+  text-align: center;
 }
 
 .responsibilities-title {
-  color: #3cb371;
-  margin-top: 1.5rem;
-  margin-bottom: 0.8rem;
-  font-size: 1.1rem;
+  color: var(--secondary-color);
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .responsibilities-list {
-  color: #555;
+  color: var(--text-color);
   padding-left: 1.5rem;
   margin: 0;
 }
 
 .responsibilities-list li {
-  margin-bottom: 0.5rem;
-  line-height: 1.5;
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 0.5rem;
+}
+
+.responsibilities-list li::before {
+  content: '▸';
+  color: var(--primary-color);
+  position: absolute;
+  left: -1.2rem;
+  font-weight: bold;
 }
 
 /* Social Profiles Sidebar */
@@ -421,9 +401,9 @@ classes: wide
   z-index: 100;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
   background: rgba(255, 255, 255, 0.95);
-  padding: 15px 10px;
+  padding: 15px 12px;
   border-radius: 15px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
@@ -431,21 +411,22 @@ classes: wide
 }
 
 .social-sidebar a {
-  width: 45px;
-  height: 45px;
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   color: white;
-  font-size: 1.2rem;
-  transition: all 0.3s ease;
+  font-size: 1.3rem;
+  transition: var(--transition);
   text-decoration: none;
   position: relative;
 }
 
 .social-sidebar a:hover {
   transform: translateY(-3px) scale(1.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .social-sidebar a:hover::after {
@@ -454,14 +435,29 @@ classes: wide
   right: 100%;
   top: 50%;
   transform: translateY(-50%);
-  background: #2e8b57;
+  background: var(--primary-color);
   color: white;
-  padding: 5px 10px;
-  border-radius: 4px;
-  font-size: 0.8rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
   white-space: nowrap;
-  margin-right: 10px;
-  opacity: 0.9;
+  margin-right: 12px;
+  opacity: 0.95;
+  font-weight: 500;
+  z-index: 101;
+}
+
+.social-sidebar a:hover::before {
+  content: '';
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  border-left: 6px solid var(--primary-color);
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  margin-right: 6px;
+  z-index: 101;
 }
 
 .social-sidebar .github { background: #333; }
@@ -469,19 +465,12 @@ classes: wide
 .social-sidebar .linkedin { background: #0077b5; }
 .social-sidebar .orcid { background: #a6ce39; }
 .social-sidebar .researchgate { background: #00d0af; }
-.social-sidebar .email { background: #2e8b57; }
+.social-sidebar .email { background: var(--primary-color); }
 
 /* Responsive Design */
 @media (max-width: 1100px) {
   .about-layout {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-  
-  .left-column {
-    position: static;
-    max-width: 500px;
-    margin: 0 auto;
+    padding: 0 1.5rem;
   }
   
   .social-sidebar {
@@ -491,58 +480,83 @@ classes: wide
     justify-content: center;
     margin: 2rem auto;
     width: 90%;
-    max-width: 500px;
+    max-width: 600px;
     padding: 15px;
+    border-radius: 50px;
   }
   
   .social-sidebar a {
-    flex: 1;
-    max-width: 45px;
+    width: 45px;
+    height: 45px;
+    font-size: 1.2rem;
   }
 }
 
 @media (max-width: 768px) {
   .about-layout {
     padding: 0 1rem;
+    margin: 1rem auto;
   }
   
-  .profile-photo {
-    width: 200px;
-    height: 200px;
+  .section-title {
+    font-size: 1.6rem;
   }
   
   .research-grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
   
-  .profile-buttons {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+  .biography-content,
+  .education-item,
+  .position-card,
+  .research-card {
+    padding: 1.5rem;
   }
   
-  .btn--primary {
-    min-width: 200px;
+  .social-sidebar {
+    border-radius: 25px;
+    padding: 12px;
+    gap: 8px;
+  }
+  
+  .social-sidebar a {
+    width: 40px;
+    height: 40px;
+    font-size: 1.1rem;
   }
 }
 
 @media (max-width: 480px) {
-  .profile-card {
-    padding: 1.5rem;
-  }
-  
-  .profile-name {
-    font-size: 1.5rem;
+  .about-layout {
+    padding: 0 0.8rem;
   }
   
   .section-title {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   
   .biography-content,
   .education-item,
   .position-card {
     padding: 1.2rem;
+  }
+  
+  .education-degree {
+    font-size: 1.1rem;
+  }
+  
+  .education-info,
+  .position-info {
+    font-size: 0.95rem;
+  }
+  
+  .research-card h3 {
+    font-size: 1.1rem;
+  }
+  
+  .research-card p {
+    font-size: 0.95rem;
   }
 }
 </style>
