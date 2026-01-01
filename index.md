@@ -1,70 +1,51 @@
 ---
-layout: home
-title: "Bedru Yimam"
-permalink: /
-author_profile: true
-header:
-  overlay_image: /images/header-bg.jpg
-  overlay_filter: 0.3
-  overlay_color: "#078930"
-excerpt: "Computer Science Lecturer & Researcher<br>Wollo University, Ethiopia"
+title: Bedru Yimam
+description: Personal website and portfolio
+layout: default
 ---
 
-# Welcome
+# Welcome to My Website
 
-I'm **Bedru Yimam**, a lecturer and researcher in Computer Science at **Wollo University** in Dessie, Ethiopia. My work focuses on applying technology to address educational challenges and advance research in the Ethiopian context.
+Hello! I'm **Bedru Yimam**, and this is my personal website hosted on GitHub Pages.
 
-## Research Areas
+## About Me
 
-**Artificial Intelligence & Machine Learning**  
-Developing ML models for education and local applications
+I'm passionate about technology, software development, and open-source projects. This site serves as my digital portfolio and a space to share my work and thoughts.
 
-**Natural Language Processing**  
-Building tools for Ethiopian languages
+## Projects
 
-**Computer Science Education**  
-Improving teaching and learning in Ethiopian universities
+Here are some of my featured projects:
 
-**Data Science**  
-Applying data analytics to local challenges
+### [Project 1]
+**Description:** Brief description of your project  
+**Technologies:** Tech stack used  
+**Link:** [View Project](#) or [GitHub Repository](https://github.com/bedruyimam/)
 
-## Current Projects
+### [Project 2]
+**Description:** Brief description of your project  
+**Technologies:** Tech stack used  
+**Link:** [View Project](#) or [GitHub Repository](https://github.com/bedruyimam/)
 
-### 1. Ethiopian Student Analytics Platform
-A dashboard for tracking and predicting student performance in Ethiopian universities.
+## Skills
 
-### 2. Amharic NLP Toolkit
-Open-source tools for processing Amharic text using modern NLP techniques.
+- **Programming Languages:** (List your languages)
+- **Frameworks & Libraries:** (List your frameworks)
+- **Tools & Technologies:** (List your tools)
+- **Other Skills:** (List other relevant skills)
 
-### 3. CS Curriculum Development
-Creating computer science curriculum tailored for Ethiopian universities.
+## Blog
 
-## Recent Publications
-
-{% assign recent_pubs = site.publications | sort: "year" | reverse %}
-{% for pub in recent_pubs limit:3 %}
-- **{{ pub.title }}**  
-  *{{ pub.venue }}, {{ pub.year }}*  
-  {% if pub.paperurl %}[PDF]({{ pub.paperurl }}){% endif %}
-{% endfor %}
-
-[View all publications →](/publications/)
-
-## Teaching
-
-**Current Courses at Wollo University:**
-- CSC 101: Introduction to Computer Science
-- CSC 201: Data Structures and Algorithms
-- CSC 301: Database Systems
-- CSC 501: Machine Learning (Graduate)
-
-[Teaching portfolio →](/teaching/)
+Coming soon! I'll be sharing articles about:
+- Software development
+- Technology insights
+- Tutorials and guides
 
 ## Contact
 
-**Email:** [bedruy4@gmail.com](mailto:bedruy4@gmail.com)  
-**Location:** Dessie, Ethiopia  
-**University:** Wollo University  
-**Department:** Computer Science
+- **GitHub:** [bedruyimam](https://github.com/bedruyimam)
+- **Email:** [your-email@example.com](mailto:your-email@example.com)
+- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
 
-[Download CV](/files/cv.pdf) | [View Projects](/projects/)
+---
+
+© 2023 Bedru Yimam. All rights reserved.
