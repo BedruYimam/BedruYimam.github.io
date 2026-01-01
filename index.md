@@ -44,9 +44,7 @@ header:
     <i class="fas fa-envelope" style="color: #2e8b57;"></i> bedruy4@gmail.com
   </p>
   
-  <!-- Social Links (Inline) -->
 
-  </div>
 
   <!-- About Me Section -->
   <section style="margin: 3rem 0 2rem 0; max-width: 800px; margin-left: auto; margin-right: auto;">
@@ -125,7 +123,7 @@ header:
 /* Social Profiles Sidebar */
 .social-sidebar {
   position: fixed;
-  right: 30px;
+  right: 40px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 100;
