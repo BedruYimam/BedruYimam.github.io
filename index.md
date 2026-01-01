@@ -79,7 +79,7 @@ header:
     I welcome collaboration opportunities for research projects, student supervision, 
     and academic partnerships focused on technology and development in Ethiopia.
   </p>
-  <a href="/contact/" class="btn btn--primary" style="background: black; color: white; border: none; padding: 0.8rem 2rem; font-weight: 600;">
+  <a href="/contact/" class="btn btn--primary" style="background: black; color: #2c3e50; border: none; padding: 0.8rem 2rem; font-weight: 600;">
     Get In Touch <i class="fas fa-arrow-right"></i>
   </a>
 </div>
