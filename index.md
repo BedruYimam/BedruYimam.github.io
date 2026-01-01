@@ -59,7 +59,7 @@ feature_row:
 
 <!-- Additional Sections -->
 <div style="max-width: 1200px; margin: 3rem auto; padding: 0 1rem;">
-  <!-- About Section -->
+  <!-- About Section - Moved above Research Interests -->
   <section style="margin: 3rem 0;">
     <h2 style="text-align: center; color: #2e8b57; margin-bottom: 1.5rem;">About Me</h2>
     <p style="text-align: center; max-width: 800px; margin: 0 auto; line-height: 1.6; color: #555;">
@@ -69,6 +69,7 @@ feature_row:
       technology education and research that contributes to sustainable development in Africa.
     </p>
   </section>
+
   <!-- Research Interests -->
   <section style="margin: 3rem 0;">
     <h2 style="text-align: center; color: #2e8b57; margin-bottom: 1.5rem;">Research Interests</h2>
