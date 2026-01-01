@@ -51,8 +51,8 @@ classes: wide
 }
 
 .profile-image {
-  width: 250px !important;
-  height: 250px !important;
+  width: 200px !important;
+  height: 200px !important;
   border-radius: 50% !important;
   border: 8px solid #2e8b57 !important;
   object-fit: cover !important;
