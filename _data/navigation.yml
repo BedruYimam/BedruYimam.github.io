@@ -1,17 +1,31 @@
-main:
-  - title: "Home"
-    url: /
+# _data/navigation.yml
+
+sidebar-nav:
   - title: "About"
     url: /about/
   - title: "Research"
     url: /research/
-  - title: "Publications"
-    url: /publications/
+    children:
+      - title: "Publications"
+        url: /publications/
+      - title: "Research Areas"
+        url: /research/areas/
+      - title: "Projects"
+        url: /research/projects/
   - title: "Teaching"
     url: /teaching/
-  - title: "Projects"
-    url: /projects/
-  - title: "CV"
-    url: /files/cv.pdf
+    children:
+      - title: "Courses"
+        url: /teaching/courses/
+      - title: "Materials"
+        url: /teaching/materials/
+      - title: "Student Supervision"
+        url: /teaching/supervision/
+  - title: "Talks & Presentations"
+    url: /talks/
+  - title: "Portfolio"
+    url: /portfolio/
   - title: "Blog"
-    url: /year-archive/
+    url: /blog/
+  - title: "Contact"
+    url: /contact/
