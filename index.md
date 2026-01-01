@@ -1,7 +1,5 @@
 ---
 layout: splash
-title: "Bedru Yimam Ahmed | በድሩ ይማም አህመድ"
-permalink: /
 header:
   overlay_color: "#2e8b57"
   overlay_filter: "0.5"
