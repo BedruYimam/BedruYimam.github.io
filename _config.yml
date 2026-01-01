@@ -17,7 +17,16 @@ author:
   department: "Computer Science"
   email: "bedruy4@gmail.com"
   uri: "https://bedruyimam.github.io"
-  
+  # Add to your existing config
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      sidebar:
+        - title: "Navigation"
+          nav: "sidebar-nav"
   # Academic
   googlescholar: "https://scholar.google.com/citations?user=YOUR_ID"
   orcid: "https://orcid.org/YOUR_ORCID"
