@@ -72,7 +72,7 @@ header:
   </section>
 </div>
 
-<!-- Call to Action Section - Changed Background Color -->
+<!-- Call to Action Section -->
 <div style="background: #1a5c36; color: white; padding: 3rem 1rem; text-align: center; margin-top: 3rem;">
   <h2 style="margin-top: 0; margin-bottom: 1rem;">Interested in Collaboration?</h2>
   <p style="max-width: 600px; margin: 0 auto 1.5rem auto; opacity: 0.9;">
@@ -90,32 +90,32 @@ header:
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 <style>
-  /* Custom styles for splash page */
-  .btn--primary {
-    background: linear-gradient(135deg, #2e8b57 0%, #3cb371 100%);
-    border: none;
-    border-radius: 30px;
-    padding: 0.8rem 2rem;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+/* Custom styles for splash page */
+.btn--primary {
+  background: linear-gradient(135deg, #2e8b57 0%, #3cb371 100%);
+  border: none;
+  border-radius: 30px;
+  padding: 0.8rem 2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(46, 139, 87, 0.3);
+}
+
+@media (max-width: 768px) {
+  .author__avatar img {
+    width: 200px;
+    height: 200px;
   }
   
-  .btn--primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(46, 139, 87, 0.3);
+  /* Make research interest tags wrap better on mobile */
+  .research-interests span {
+    margin: 0.3rem;
   }
-  
-  @media (max-width: 768px) {
-    .author__avatar img {
-      width: 200px;
-      height: 200px;
-    }
-    
-    /* Make research interest tags wrap better on mobile */
-    .research-interests span {
-      margin: 0.3rem;
-    }
-  }
+}
 </style>
