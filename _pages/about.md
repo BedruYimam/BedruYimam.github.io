@@ -36,7 +36,7 @@ classes: wide
       <img src="/images/bedru.jpg" alt="Bedru Yimam Ahmed" style="width: 250px; height: 250px; border-radius: 50%; border: 5px solid #2e8b57; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); margin-bottom: 1.5rem;">
       
       <h1 style="margin-bottom: 0.5rem; color: #2c3e50;">Bedru Yimam Ahmed</h1>
-      <h3 style="color: #2e8b57; margin-top: 0; margin-bottom: 0.5rem;">Lecturer & Researcher in Computer Science</h3>
+      <h3 style="color: #2e8b57; margin-top: 0; margin-bottom: 0.5rem;">Lecturer & Researcher in Information Technology</h3>
       
       <p style="font-size: 1.1rem; color: #555; margin-bottom: 1rem;">
         <i class="fas fa-university" style="color: #2e8b57;"></i> Wollo University, Dessie, Ethiopia
