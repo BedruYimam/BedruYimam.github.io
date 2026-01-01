@@ -19,7 +19,21 @@ permalink: pretty
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "mint"
 search: true
+# Add to your _config.yml under the SASS section:
 
+# SASS Configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+  load_paths:
+    - _sass
+
+# CSS for the skin
+minimal_mistakes_skin: "mint"
+
+# Additional CSS
+include:
+  - _sass/custom.scss
 # Author Details
 author:
   name: "Bedru Yimam Ahmed"
