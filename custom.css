@@ -1,4 +1,220 @@
 /* Banner styling if no image is provided */
+/* _sass/custom.scss - Custom styles for Bedru Yimam's website */
+
+/* Profile Image Center Alignment */
+.author__avatar {
+  display: block;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  
+  img {
+    border-radius: 50%;
+    border: 5px solid #2e8b57; /* Mint color border */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    max-width: 250px;
+    height: auto;
+    
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+      border-color: #3cb371; /* Lighter mint on hover */
+    }
+  }
+}
+
+/* Center author name and bio */
+.author__content {
+  text-align: center;
+  margin-bottom: 3rem;
+  
+  .author__name {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    
+    &:after {
+      content: "";
+      display: block;
+      width: 80px;
+      height: 3px;
+      background: linear-gradient(to right, #2e8b57, #98fb98);
+      margin: 1rem auto;
+      border-radius: 2px;
+    }
+  }
+  
+  .author__bio {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 1rem auto;
+    color: #555;
+  }
+}
+
+/* Custom header styling */
+.page__title {
+  text-align: center;
+  color: #2e8b57;
+  position: relative;
+  padding-bottom: 1rem;
+  
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(to right, #2e8b57, #98fb98);
+    border-radius: 2px;
+  }
+}
+
+/* Custom navigation styling */
+.greedy-nav {
+  background: linear-gradient(135deg, #2e8b57 0%, #3cb371 100%);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  
+  a {
+    color: white;
+    font-weight: 600;
+    
+    &:hover {
+      color: #e0ffe0;
+    }
+  }
+}
+
+/* Ethiopian flag colors accent */
+.ethiopia-accent {
+  position: relative;
+  
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to right, 
+      #078930 33%, 
+      #fcdd09 33%, 66%, 
+      #da121a 66%);
+    border-radius: 3px 3px 0 0;
+  }
+}
+
+/* Custom button styling */
+.btn--primary {
+  background: linear-gradient(135deg, #2e8b57 0%, #3cb371 100%);
+  border: none;
+  border-radius: 25px;
+  padding: 0.8rem 2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(46, 139, 87, 0.3);
+  }
+}
+
+/* Publication card styling */
+.publication__item {
+  border-left: 4px solid #2e8b57;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 0 8px 8px 0;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background: #f0f7f0;
+    transform: translateX(5px);
+  }
+}
+
+/* Teaching materials styling */
+.teaching__item {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid #3cb371;
+  
+  h3 {
+    color: #2e8b57;
+    margin-top: 0;
+  }
+}
+
+/* Social links styling */
+.social-icons {
+  .fa-google-scholar, 
+  .ai-google-scholar {
+    color: #4285f4;
+  }
+  
+  .ai-orcid {
+    color: #a6ce39;
+  }
+  
+  .ai-researchgate {
+    color: #00d0af;
+  }
+}
+
+/* Footer styling */
+.page__footer {
+  background: #2c3e50;
+  color: white;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  
+  .footer-icons {
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .page__footer-copyright {
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .author__avatar img {
+    max-width: 200px;
+  }
+  
+  .author__name {
+    font-size: 1.8rem;
+  }
+  
+  .author__bio {
+    font-size: 1rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  .author__avatar img {
+    border: 2px solid #ccc;
+  }
+  
+  .greedy-nav,
+  .page__footer {
+    display: none;
+  }
+}
 .no-banner-image {
   background: linear-gradient(135deg, #2e8b57 0%, #3cb371 100%);
   color: white;
