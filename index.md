@@ -43,9 +43,7 @@ header:
     <i class="fas fa-university" style="color: #2e8b57;"></i> Wollo University, Dessie, Ethiopia<br>
     <i class="fas fa-envelope" style="color: #2e8b57;"></i> bedruy4@gmail.com
   </p>
-  
-
-
+</div>
   <!-- About Me Section -->
   <section style="margin: 3rem 0 2rem 0; max-width: 800px; margin-left: auto; margin-right: auto;">
     <h2 style="color: #2e8b57; margin-bottom: 1.5rem; text-align: center;">About Me</h2>
