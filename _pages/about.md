@@ -80,15 +80,15 @@ classes: wide
         <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">Master of Science (MSc) in Information Technology</h3>
         <p style="color: #555; margin-bottom: 0.3rem;">
           <i class="fas fa-university" style="color: #3cb371; margin-right: 0.5rem;"></i> 
-          [BahirDar University], [BahirDar, Ethiopia]
+          BahirDar University, BahirDar, Ethiopia
         </p>
         <p style="color: #555; margin-bottom: 0.3rem;">
           <i class="far fa-calendar-alt" style="color: #3cb371; margin-right: 0.5rem;"></i> 
-          [2019] - [2021] G.c
+          2019 - 2021 G.c
         </p>
         <p style="color: #555; margin-bottom: 0.3rem;">
           <i class="fas fa-graduation-cap" style="color: #3cb371; margin-right: 0.5rem;"></i> 
-          Thesis: [Graph-based dependency parsing for Amharic Language using Deep Learning]
+          Thesis: Graph-based dependency parsing for Amharic Language using Deep Learning
         </p>
       </div>
       
@@ -96,11 +96,11 @@ classes: wide
         <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">Bachelor of Science (BSc) in Computer Science</h3>
         <p style="color: #555; margin-bottom: 0.3rem;">
           <i class="fas fa-university" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
-          [Woldia University], [Woldia, Ethiopia]
+          Woldia University, Woldia, Ethiopia
         </p>
         <p style="color: #555; margin-bottom: 0.3rem;">
           <i class="far fa-calendar-alt" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
-          [2013] - [2017] G.C
+          2013 - 2017 G.C
         </p>
       </div>
     </section>
