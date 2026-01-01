@@ -1,46 +1,25 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+
 # Basic Site Settings
 title: "Bedru Yimam Ahmed | በድሩ ይማም አህመድ"
 url: "https://bedruyimam.github.io"
-baseurl: ""  # Keep empty for username.github.io
+baseurl: ""
 site_theme: "mint"
+repository: "BedruYimam/BedruYimam.github.io"
 
 # Site Author
 author:
   name: "Bedru Yimam"
-  bio: "Your research bio here"
+  bio: "Lecturer and Researcher at Wollo University"
   email: "bedruy4@gmail.com"
   location: "Dessie, Ethiopia"
   employer: "Wollo University"
-  googlescholar: "https://scholar.google.com/citations?user=YOUR_ID"
   github: "BedruYimam"
-  orcid: "https://orcid.org/YOUR_ORCID"
-  linkedin: "your-linkedin-username"
 
-# Publication Categories
-publication_category:
-  journal:
-    title: 'Journal Articles'
-  conference:
-    title: 'Conference Papers'
-  preprint:
-    title: 'Preprints'
-  thesis:
-    title: 'Theses & Dissertations'
-  book:
-    title: 'Books & Chapters'
-
-# Analytics
-analytics:
-  provider: "google-analytics-4"
-  google:
-    tracking_id: "G-XXXXXXXXXX"  # Your GA4 Measurement ID
-
-# Social Sharing
-og_image: "/images/social-preview.jpg"  # 1200x630px
-twitter:
-  username: "yourusername"
-
-# IMPORTANT: Must include _pages
+# MUST INCLUDE this section for pages to work
 include:
   - _pages
   - _posts
@@ -48,3 +27,34 @@ include:
   - _teaching
   - _talks
   - _portfolio
+
+# Collections
+collections:
+  teaching:
+    output: true
+  publications:
+    output: true
+  talks:
+    output: true
+  portfolio:
+    output: true
+
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+
+# Publication Categories (optional)
+publication_category:
+  journal:
+    title: 'Journal Articles'
+  conference:
+    title: 'Conference Papers'
