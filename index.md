@@ -9,6 +9,22 @@ header:
       url: "/contact/"
       btn_class: "btn--primary"
 feature_row:
+  - title: "Research"
+    excerpt: "Exploring AI, Machine Learning, and Computer Vision applications"
+    url: "/research/"
+    btn_class: "btn--primary"
+    btn_label: "Learn More"
+  - title: "Teaching"
+    excerpt: "Computer Science courses and curriculum development"
+    url: "/teaching/"
+    btn_class: "btn--primary"
+    btn_label: "View Courses"
+  - title: "Publications"
+    excerpt: "Academic papers and research publications"
+    url: "/publications/"
+    btn_class: "btn--primary"
+    btn_label: "Browse Publications"
+---
 
 <div class="author__avatar" style="text-align: center; margin: 2rem auto;">
   <img src="images/bedru.jpg" alt="Bedru Yimam Ahmed" class="profile-image" style="width: 250px; height: 250px; border-radius: 50%; border: 5px solid #2e8b57; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);">
@@ -39,10 +55,9 @@ feature_row:
   </div>
 </div>
 
+{% include feature_row %}
 
-
-
-  <!-- Additional Sections -->
+<!-- Additional Sections -->
 <div style="max-width: 1200px; margin: 3rem auto; padding: 0 1rem;">
   <!-- About Section -->
   <section style="margin: 3rem 0;">
