@@ -31,24 +31,53 @@ classes: wide
   padding: 40px 20px !important;
   gap: 60px !important;
   min-height: 100vh;
+  position: relative;
 }
 
-/* Photo Sidebar - Fixed on left */
-.about-photo-sidebar {
+/* Left Sidebar - Social Icons */
+.social-left-sidebar {
+  position: fixed !important;
+  left: 20px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  z-index: 1000 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  background: white !important;
+  padding: 15px !important;
+  border-radius: 15px !important;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1) !important;
+  border: 1px solid #eaeaea !important;
+}
+
+.social-link {
+  width: 50px !important;
+  height: 50px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50% !important;
+  color: white !important;
+  font-size: 20px !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+}
+
+.social-link:hover {
+  transform: scale(1.1) !important;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2) !important;
+}
+
+/* Photo Section - Clean without card */
+.about-photo-section {
   flex: 0 0 320px !important;
   width: 320px !important;
   position: sticky !important;
   top: 40px !important;
   height: fit-content !important;
-}
-
-.photo-card {
-  background: white !important;
-  border-radius: 20px !important;
-  padding: 70px !important;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
   text-align: center !important;
-  border: 1px solid #eaeaea !important;
+  padding: 20px !important;
 }
 
 .profile-image {
@@ -59,7 +88,7 @@ classes: wide
   margin: 0 auto 25px !important;
   display: block !important;
   object-fit: cover !important;
-  background: #f5f5f5 !important;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1) !important;
 }
 
 .profile-name {
@@ -132,6 +161,7 @@ classes: wide
   flex: 1 !important;
   min-width: 0 !important;
   max-width: 800px !important;
+  margin: 0 auto !important;
 }
 
 .section {
@@ -147,17 +177,13 @@ classes: wide
   font-weight: 700 !important;
 }
 
-/* Biography Text - Fix word breaking */
+/* Biography Text */
 .biography-text {
   font-size: 18px !important;
   line-height: 1.8 !important;
   color: #444 !important;
   text-align: justify !important;
   margin-bottom: 20px !important;
-  word-wrap: normal !important;
-  word-break: normal !important;
-  white-space: normal !important;
-  overflow-wrap: normal !important;
 }
 
 .biography-text p {
@@ -248,71 +274,77 @@ classes: wide
   color: #555 !important;
 }
 
-/* Social Sidebar */
-.social-sidebar {
-  position: fixed !important;
-  right: 20px !important;
-  top: 50% !important;
-  transform: translateY(-50%) !important;
-  z-index: 1000 !important;
-  display: flex !important;
-  flex-direction: column !important;
-  gap: 12px !important;
-  background: white !important;
-  padding: 15px !important;
-  border-radius: 15px !important;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1) !important;
-}
+/* Color classes for social icons */
+.github { background: #333 !important; }
+.scholar { background: #4285f4 !important; }
+.linkedin { background: #0077b5 !important; }
+.orcid { background: #a6ce39 !important; }
+.researchgate { background: #00d0af !important; }
+.email { background: #2e8b57 !important; }
 
-.social-link {
-  width: 50px !important;
-  height: 50px !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  border-radius: 50% !important;
-  color: white !important;
-  font-size: 20px !important;
-  text-decoration: none !important;
-  transition: all 0.3s ease !important;
-}
-
-.social-link:hover {
-  transform: scale(1.1) !important;
+/* Right Space Column */
+.about-space-column {
+  flex: 0 0 320px !important;
+  min-width: 320px !important;
 }
 
 /* Responsive Design */
+@media (max-width: 1400px) {
+  .about-space-column {
+    display: none !important;
+  }
+  
+  .about-main-container {
+    gap: 40px !important;
+  }
+}
+
 @media (max-width: 1200px) {
   .about-main-container {
     flex-direction: column !important;
     gap: 40px !important;
+    padding-top: 80px !important;
   }
   
-  .about-photo-sidebar {
+  .about-photo-section {
     position: static !important;
     width: 100% !important;
     max-width: 500px !important;
     margin: 0 auto !important;
+    order: 1 !important;
   }
   
-  .photo-card {
-    max-width: 500px !important;
-    margin: 0 auto !important;
-  }
-  
-  .social-sidebar {
-    position: static !important;
-    transform: none !important;
+  .social-left-sidebar {
+    position: fixed !important;
+    top: 20px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
     flex-direction: row !important;
-    justify-content: center !important;
-    max-width: 500px !important;
-    margin: 40px auto !important;
+    width: auto !important;
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(10px) !important;
+  }
+  
+  .about-content-area {
+    order: 2 !important;
   }
 }
 
 @media (max-width: 768px) {
   .about-main-container {
     padding: 20px 15px !important;
+    padding-top: 100px !important;
+  }
+  
+  .social-left-sidebar {
+    padding: 10px !important;
+    gap: 8px !important;
+  }
+  
+  .social-link {
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 16px !important;
   }
   
   .profile-image {
@@ -355,8 +387,8 @@ p, h1, h2, h3, h4, h5, h6, div, span {
 </style>
 
 <div class="about-page-wrapper">
-  <!-- Social Profiles Sidebar -->
-  <nav class="social-sidebar">
+  <!-- Social Sidebar - LEFT SIDE -->
+  <nav class="social-left-sidebar">
     <a href="https://github.com/BedruYimam" target="_blank" class="social-link github" title="GitHub">
       <i class="fab fa-github"></i>
     </a>
@@ -378,33 +410,31 @@ p, h1, h2, h3, h4, h5, h6, div, span {
   </nav>
 
   <div class="about-main-container">
-    <!-- Left Column: Photo and Basic Info -->
-    <div class="about-photo-sidebar">
-      <div class="photo-card">
-        <img src="/images/bedru.jpg" alt="Bedru Yimam Ahmed" class="profile-image">
-        
-        <h1 class="profile-name">Bedru Yimam Ahmed</h1>
-        <h3 class="profile-title">Lecturer & Researcher in Information Technology</h3>
-        
-        <div class="profile-detail">
-          <i class="fas fa-university"></i>
-          <span>Wollo University, Dessie, Ethiopia</span>
-        </div>
-        
-        <div class="profile-detail">
-          <i class="fas fa-envelope"></i>
-          <span>bedruy4@gmail.com</span>
-        </div>
-        
-        <!-- Quick Contact Buttons -->
-        <div class="contact-buttons">
-          <a href="/assets/documents/cv.pdf" class="btn btn-cv">
-            <i class="fas fa-download"></i> Download CV
-          </a>
-          <a href="/contact/" class="btn btn-contact">
-            <i class="fas fa-envelope"></i> Contact Me
-          </a>
-        </div>
+    <!-- Left Column: Photo Section (no card) -->
+    <div class="about-photo-section">
+      <img src="/images/bedru.jpg" alt="Bedru Yimam Ahmed" class="profile-image">
+      
+      <h1 class="profile-name">Bedru Yimam Ahmed</h1>
+      <h3 class="profile-title">Lecturer & Researcher in Information Technology</h3>
+      
+      <div class="profile-detail">
+        <i class="fas fa-university"></i>
+        <span>Wollo University, Dessie, Ethiopia</span>
+      </div>
+      
+      <div class="profile-detail">
+        <i class="fas fa-envelope"></i>
+        <span>bedruy4@gmail.com</span>
+      </div>
+      
+      <!-- Quick Contact Buttons -->
+      <div class="contact-buttons">
+        <a href="/assets/documents/cv.pdf" class="btn btn-cv">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+        <a href="/contact/" class="btn btn-contact">
+          <i class="fas fa-envelope"></i> Contact Me
+        </a>
       </div>
     </div>
 
@@ -517,6 +547,9 @@ p, h1, h2, h3, h4, h5, h6, div, span {
         </div>
       </section>
     </div>
+    
+    <!-- Right Space Column for balance -->
+    <div class="about-space-column"></div>
   </div>
 </div>
 
