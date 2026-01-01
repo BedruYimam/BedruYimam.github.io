@@ -137,7 +137,7 @@ header:
 /* Social Profiles Sidebar */
 .social-sidebar {
   position: fixed;
-  right: 20px;
+  right: 30px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 100;
