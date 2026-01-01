@@ -42,7 +42,7 @@ classes: wide
   position: sticky !important;
   top: 30px !important;
   text-align: left !important;
-  margin-left: 0 !important;
+  margin-left: -20px !important;
   align-self: flex-start !important;
 }
 
@@ -51,8 +51,8 @@ classes: wide
 }
 
 .profile-image {
-  width: 280px !important;
-  height: 280px !important;
+  width: 250px !important;
+  height: 250px !important;
   border-radius: 50% !important;
   border: 8px solid #2e8b57 !important;
   object-fit: cover !important;
