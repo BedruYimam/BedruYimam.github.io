@@ -1,32 +1,13 @@
-# _data/navigation.yml
 main:
- 
+  - title: "Home"
     url: /
   - title: "About"
     url: /about/
   - title: "Research"
     url: /research/
-    children:
-      - title: "Publications"
-        url: /publications/
-      - title: "Projects"
-        url: /research/projects/
-      - title: "Research Areas"
-        url: /research/areas/
+  - title: "Publications"
+    url: /publications/
   - title: "Teaching"
-    url: /teaching/
-    children:
-      - title: "Courses"
-        url: /teaching/courses/
-      - title: "Materials"
-        url: /teaching/materials/
-      - title: "Student Supervision"
-        url: /teaching/supervision/
-  - title: "Talks"
-    url: /talks/
-  - title: "Portfolio"
-    url: /portfolio/
-  - title: "Blog"
-    url: /blog/
+    url: /teaching/      # Add this line
   - title: "Contact"
     url: /contact/
