@@ -30,7 +30,7 @@ classes: wide
   display: flex !important;
   max-width: 1400px !important;
   margin: 0 auto !important;
-  gap: 40px !important;
+  gap: 30px !important;
   align-items: flex-start !important;
   position: relative;
 }
