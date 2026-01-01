@@ -30,7 +30,7 @@ classes: wide
         <i class="fas fa-building" style="color: #2e8b57; margin-right: 1rem; margin-top: 0.3rem;"></i>
         <div>
           <h4 style="margin: 0 0 0.2rem 0; color: #2c3e50;">Department</h4>
-          <p style="margin: 0; color: #555;">Department of Computer Science<br>Wollo University</p>
+          <p style="margin: 0; color: #555;">Department ofInformation Technology<br>Wollo University</p>
         </div>
       </div>
       
@@ -56,7 +56,7 @@ classes: wide
         <i class="fas fa-phone" style="color: #2e8b57; margin-right: 1rem; margin-top: 0.3rem;"></i>
         <div>
           <h4 style="margin: 0 0 0.2rem 0; color: #2c3e50;">Phone</h4>
-          <p style="margin: 0; color: #555;">+251 [Your Phone Number]</p>
+          <p style="margin: 0; color: #555;">+251 [09-96-30-61-84]</p>
         </div>
       </div>
       
