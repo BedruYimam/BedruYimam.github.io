@@ -101,7 +101,7 @@ header:
     I welcome collaboration opportunities for research projects, student supervision, 
     and academic partnerships focused on technology and development in Ethiopia.
   </p>
-  <a href="/contact/" class="btn btn--primary" style="background: white; color: #2e8b57; border: 2px solid #2e8b57; padding: 0.8rem 2rem; font-weight: 600; text-decoration: none; display: inline-block; border-radius: 30px;">
+  <a href="/contact/" class="btn btn--primary" style="background: black; color: #2e8b57; border: 2px solid #2e8b57; padding: 0.8rem 2rem; font-weight: 600; text-decoration: none; display: inline-block; border-radius: 30px;">
     Get In Touch <i class="fas fa-arrow-right"></i>
   </a>
 </div>
