@@ -1,16 +1,58 @@
-// Custom styles for Bedru Yimam's site
+// Ethiopian color scheme
+$ethiopia-green: #078930;
+$ethiopia-yellow: #fadd00;
+$ethiopia-red: #da121a;
 
-// Change primary color
-$primary-color: #2c3e50;
-
-// Custom header styles
-.site-title {
-  font-family: 'Helvetica Neue', sans-serif;
-  font-weight: 700;
+// Custom styles
+.ethiopia-badge {
+  background: linear-gradient(to right, $ethiopia-green, $ethiopia-yellow, $ethiopia-red);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: bold;
 }
 
-// Publication list styling
-.publication-list {
-  border-left: 4px solid $primary-color;
-  padding-left: 20px;
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.research-area {
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid $ethiopia-green;
+  
+  h3 {
+    color: $ethiopia-green;
+    margin-top: 0;
+  }
+}
+
+.publication-highlight {
+  border-left: 3px solid $ethiopia-yellow;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+}
+
+.news-item {
+  border-bottom: 1px solid #eee;
+  padding: 1rem 0;
+  
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+// Header customization
+.page__hero {
+  &--overlay {
+    .page__title {
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+  }
 }
