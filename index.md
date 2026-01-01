@@ -1,7 +1,5 @@
----
 
 layout: splash
-
   actions:
     - label: "View My CV"
       url: "/assets/documents/cv.pdf"
