@@ -42,7 +42,7 @@ classes: wide
   position: sticky !important;
   top: 60px !important;
   text-align: left !important;
-  margin-left: -200 !important;
+  margin-left: -100 !important;
   align-self: flex-start !important;
 }
 
