@@ -1,10 +1,7 @@
 ---
 
 layout: splash
-header:
-  overlay_color: "#2e8b57"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/banner.jpg
+
   actions:
     - label: "View My CV"
       url: "/assets/documents/cv.pdf"
@@ -12,8 +9,6 @@ header:
     - label: "Contact Me"
       url: "/contact/"
       btn_class: "btn--primary"
-  caption: "Lecturer & Researcher in Computer Science"
-excerpt: "Bridging technology and education in Ethiopia"
 feature_row:
   - title: "Research"
     excerpt: "Exploring AI, Machine Learning, and Computer Vision applications"
