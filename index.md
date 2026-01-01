@@ -99,6 +99,9 @@ header:
 
 <style>
 /* Custom styles for splash page */
+  *{
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
 .btn--primary {
   background: white;
   color: #2e8b57;
