@@ -18,31 +18,27 @@ classes: wide
 
 ## Biography
 
-I am a dedicated Computer Science lecturer and researcher at Wollo University in Ethiopia, specializing in Artificial Intelligence, Machine Learning, and Computer Vision. My academic journey is driven by a passion for leveraging technology to address local and regional development challenges while contributing to the advancement of computer science education in Ethiopia.
+I am a dedicated Information Technology lecturer and researcher at Wollo University in Ethiopia, specializing in Artificial Intelligence, Machine Learning, and Computer Vision. My academic journey is driven by a passion for leveraging technology to address local and regional development challenges while contributing to the advancement of computer science education in Ethiopia.
 
 With a strong commitment to both teaching and research, I strive to bridge the gap between theoretical knowledge and practical applications, preparing the next generation of Ethiopian technologists and researchers to tackle complex problems through innovative solutions.
 
 ## Education
 
-**Doctor of Philosophy (PhD) in Computer Science**  
-*[University Name], [City, Country]*  
-*[Year] - Present*  
-*Thesis: [Your Thesis Title]*  
-*Advisor: [Advisor Name]*
 
-**Master of Science (MSc) in Computer Science**  
+
+**Master of Science (MSc) in Information Technology**  
 *[University Name], [City, Country]*  
 *[Year] - [Year]*  
 *Thesis: [Your Thesis Title]*  
 *Advisor: [Advisor Name]*
 
-**Bachelor of Science (BSc) in Computer Science**  
+**Bachelor of Science (BSc) in Information Technology**  
 *[University Name], [City, Country]*  
 *[Year] - [Year]*
 
 ## Academic Positions
 
-**Lecturer, Department of Computer Science**  
+**Lecturer, Department of Information Technology**  
 *Wollo University, Dessie, Ethiopia*  
 *[Start Year] - Present*
 
