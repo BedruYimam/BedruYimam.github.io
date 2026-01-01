@@ -1,1 +1,315 @@
+# Site Configuration
+title: "Bedru Yimam Ahmed | በድሩ ይማም አህመድ"
+url: "https://bedruyimam.github.io"
+baseurl: ""
+description: "Lecturer & Researcher in Computer Science at Wollo University, Ethiopia"
+keywords: "Computer Science, Lecturer, Researcher, Ethiopia, Wollo University, Artificial Intelligence, Machine Learning"
+author: "Bedru Yimam Ahmed"
 
+# Technical Configuration
+encoding: "utf-8"
+lang: "en"
+locale: "en-US"
+timezone: "Africa/Addis_Ababa"
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Theme
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "mint"
+search: true
+
+# Author Details
+author:
+  name: "Bedru Yimam Ahmed"
+  avatar: "/assets/images/bedru.jpg"
+  bio: "Lecturer & Researcher in Computer Science at Wollo University, Ethiopia. Passionate about AI, Machine Learning, and Computer Vision."
+  pronouns: "he/him"
+  location: "Dessie, Ethiopia"
+  employer: "Wollo University"
+  department: "Computer Science"
+  position: "Lecturer"
+  email: "bedruy4@gmail.com"
+  uri: "https://bedruyimam.github.io"
+  
+  # Social Links
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/BedruYimam"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/bedru-yimam"  # Update with your actual LinkedIn
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/BedruYimam"  # Update with your actual Twitter
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:bedruy4@gmail.com"
+    - label: "CV/Resume"
+      icon: "fas fa-file-pdf"
+      url: "/assets/documents/cv.pdf"  # Add your CV file
+
+# Academic Profiles
+academic:
+  googlescholar: "https://scholar.google.com/citations?user=YOUR_ID"  # Add your Google Scholar ID
+  orcid: "https://orcid.org/0000-0000-0000-0000"  # Add your ORCID
+  researchgate: "https://www.researchgate.net/profile/Bedru-Yimam"  # Update with your profile
+  academia_edu: ""  # Add if you have
+  scopus: ""  # Add if you have
+  publons: ""  # Add if you have
+
+# Collections Configuration
+collections:
+  publications:
+    output: true
+    permalink: /publications/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
+  talks:
+    output: true
+    permalink: /talks/:path/
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Default Values
+defaults:
+  # For pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: false
+      
+  # For publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      read_time: true
+      
+  # For teaching materials
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      
+  # For talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: single
+      author_profile: true
+      
+  # For portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      
+  # For posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: false
+      read_time: true
+      toc: true
+
+# Publication Categories
+publication_categories:
+  journal:
+    title: "Journal Articles"
+    description: "Peer-reviewed journal publications"
+  conference:
+    title: "Conference Papers"
+    description: "Conference proceedings and presentations"
+  workshop:
+    title: "Workshop Papers"
+    description: "Workshop publications"
+  preprint:
+    title: "Preprints"
+    description: "Manuscripts under review"
+  thesis:
+    title: "Theses & Dissertations"
+    description: "MSc and PhD theses"
+  book:
+    title: "Books & Chapters"
+    description: "Book publications and chapters"
+  technical:
+    title: "Technical Reports"
+    description: "Technical reports and whitepapers"
+
+# Teaching Categories
+teaching_categories:
+  undergraduate:
+    title: "Undergraduate Courses"
+  graduate:
+    title: "Graduate Courses"
+  workshop:
+    title: "Workshops & Training"
+  supervision:
+    title: "Student Supervision"
+
+# Navigation
+navigation:
+  main:
+    - title: "About"
+      url: /about/
+    - title: "Research"
+      url: /research/
+    - title: "Publications"
+      url: /publications/
+    - title: "Teaching"
+      url: /teaching/
+    - title: "Talks"
+      url: /talks/
+    - title: "Portfolio"
+      url: /portfolio/
+    - title: "Blog"
+      url: /blog/
+    - title: "Contact"
+      url: /contact/
+
+# Footer Configuration
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/BedruYimam"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/bedru-yimam"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=YOUR_ID"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0000-0000-0000-0000"
+    - label: "ResearchGate"
+      icon: "ai ai-researchgate"
+      url: "https://www.researchgate.net/profile/Bedru-Yimam"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:bedruy4@gmail.com"
+
+# Analytics (uncomment and add your IDs when ready)
+# analytics:
+#   provider: "google-gtag"
+#   google:
+#     tracking_id: "G-XXXXXXXXXX"
+#     anonymize_ip: true
+
+# Comments (uncomment if you want to enable)
+# comments:
+#   provider: "disqus"
+#   disqus:
+#     shortname: "your-disqus-shortname"
+
+# SEO
+seo:
+  type: "Person"
+  name: "Bedru Yimam Ahmed"
+  description: "Computer Science Lecturer and Researcher at Wollo University"
+  links:
+    - "https://github.com/BedruYimam"
+    - "https://linkedin.com/in/bedru-yimam"
+    - "https://scholar.google.com/citations?user=YOUR_ID"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-include-cache
+
+# Pagination
+paginate: 5
+paginate_path: /blog/page:num/
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: archive-taxonomy
+  permalinks:
+    year: '/blog/:year/'
+    month: '/blog/:year/:month/'
+    day: '/blog/:year/:month/:day/'
+    tag: '/blog/tag/:name/'
+    category: '/blog/category/:name/'
+
+# Include directories
+include:
+  - _pages
+  - _posts
+  - _publications
+  - _teaching
+  - _talks
+  - _portfolio
+  - _drafts
+  - .htaccess
+  - _data
+  - _sass
+  - assets
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+
+# SASS Configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build Settings
+future: true
+show_drafts: false
+limit_posts: 0
+keep_files:
+  - .git
+  - .svn
+
+# Liquid
+liquid:
+  error_mode: warn
+
+# Performance
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
