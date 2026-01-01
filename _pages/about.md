@@ -1,626 +1,539 @@
 ---
 layout: single
 permalink: /about/
-author_profile: false  # Changed to false to customize layout
+author_profile: false
 classes: wide
 ---
 
 <!-- Add Font Awesome Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-<!-- Add Academicons for academic icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
-<!-- Social Profiles Sidebar -->
-<nav class="social-sidebar">
-  <a href="https://github.com/BedruYimam" target="_blank" class="github" title="GitHub">
-    <i class="fab fa-github"></i>
-  </a>
-  <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" class="scholar" title="Google Scholar">
-    <i class="ai ai-google-scholar"></i>
-  </a>
-  <a href="https://linkedin.com/in/yourprofile" target="_blank" class="linkedin" title="LinkedIn">
-    <i class="fab fa-linkedin"></i>
-  </a>
-  <a href="https://orcid.org/YOUR_ORCID" target="_blank" class="orcid" title="ORCID">
-    <i class="ai ai-orcid"></i>
-  </a>
-  <a href="https://www.researchgate.net/profile/YOUR_PROFILE" target="_blank" class="researchgate" title="ResearchGate">
-    <i class="ai ai-researchgate"></i>
-  </a>
-  <a href="mailto:bedruy4@gmail.com" class="email" title="Email">
-    <i class="fas fa-envelope"></i>
-  </a>
-</nav>
-
-<div class="about-container">
-  <!-- Left Column: Photo and Basic Info -->
-  <div class="about-photo-column">
-    <div class="photo-sticky-wrapper">
-      <img src="/images/bedru.jpg" alt="Bedru Yimam Ahmed" class="profile-photo">
-      
-      <h1 class="profile-name">Bedru Yimam Ahmed</h1>
-      <h3 class="profile-title">Lecturer & Researcher in Information Technology</h3>
-      
-      <p class="profile-info">
-        <i class="fas fa-university"></i> Wollo University, Dessie, Ethiopia
-      </p>
-      <p class="profile-info">
-        <i class="fas fa-envelope"></i> bedruy4@gmail.com
-      </p>
-      
-      <!-- Quick Contact Buttons -->
-      <div class="profile-buttons">
-        <a href="/assets/documents/cv.pdf" class="btn btn--primary btn--cv">
-          <i class="fas fa-download"></i> Download CV
-        </a>
-        <a href="/contact/" class="btn btn--primary btn--contact">
-          <i class="fas fa-envelope"></i> Contact Me
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Middle Column: Biography and Details -->
-  <div class="about-content-column">
-    
-    <section class="content-section">
-      <h2 class="section-title">Biography</h2>
-      <p class="biography-text">
-        I am a dedicated Information Technology lecturer and researcher at Wollo University in Ethiopia, specializing in Artificial Intelligence, Machine Learning, and Computer Vision. My academic journey is driven by a passion for leveraging technology to address local and regional development challenges while contributing to the advancement of information Technology education in Ethiopia.
-      </p>
-      <p class="biography-text">
-        With a strong commitment to both teaching and research, I strive to bridge the gap between theoretical knowledge and practical applications, preparing the next generation of Ethiopian technologists and researchers to tackle complex problems through innovative solutions.
-      </p>
-    </section>
-
-    <!-- Education Section -->
-    <section class="content-section">
-      <h2 class="section-title">Education</h2>
-      
-      <div class="education-card card--masters">
-        <h3 class="education-degree">Master of Science (MSc) in Information Technology</h3>
-        <p class="education-detail">
-          <i class="fas fa-university"></i> 
-          BahirDar University, BahirDar, Ethiopia
-        </p>
-        <p class="education-detail">
-          <i class="far fa-calendar-alt"></i> 
-          2019 - 2021 G.c
-        </p>
-        <p class="education-detail">
-          <i class="fas fa-graduation-cap"></i> 
-          Thesis: Graph-based dependency parsing for Amharic Language using Deep Learning
-        </p>
-      </div>
-      
-      <div class="education-card card--bachelors">
-        <h3 class="education-degree">Bachelor of Science (BSc) in Computer Science</h3>
-        <p class="education-detail">
-          <i class="fas fa-university"></i> 
-          Woldia University, Woldia, Ethiopia
-        </p>
-        <p class="education-detail">
-          <i class="far fa-calendar-alt"></i> 
-          2013 - 2017 G.C
-        </p>
-      </div>
-    </section>
-
-    <!-- Research Focus -->
-    <section class="content-section">
-      <h2 class="section-title">Research Focus</h2>
-      
-      <div class="research-grid">
-        <div class="research-card card--ai">
-          <h3 class="research-title">
-            <i class="fas fa-brain"></i>
-            AI for Social Good
-          </h3>
-          <p class="research-description">
-            Developing AI solutions for agriculture, healthcare, and education in Ethiopian contexts.
-          </p>
-        </div>
-        
-        <div class="research-card card--ml">
-          <h3 class="research-title">
-            <i class="fas fa-chart-line"></i>
-            Machine Learning
-          </h3>
-          <p class="research-description">
-            Algorithms for image analysis, predictive modeling, and natural language processing.
-          </p>
-        </div>
-        
-        <div class="research-card card--nlp">
-          <h3 class="research-title">
-            <i class="fas fa-language"></i>
-            NLP for Ethiopian Languages
-          </h3>
-          <p class="research-description">
-            Computational tools and resources for Amharic and other Ethiopian languages.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Academic Positions -->
-    <section class="content-section">
-      <h2 class="section-title">Academic Positions</h2>
-      
-      <div class="position-card">
-        <h3 class="position-title">
-          Lecturer, Department of Computer Science
-        </h3>
-        <p class="position-detail">
-          <i class="fas fa-university"></i> 
-          Wollo University, Dessie, Ethiopia
-        </p>
-        <p class="position-detail">
-          <i class="far fa-calendar-alt"></i> 
-          [Start Year] - Present
-        </p>
-        
-        <h4 class="responsibilities-title">Responsibilities:</h4>
-        <ul class="responsibilities-list">
-          <li>Teaching undergraduate and graduate courses in computer science</li>
-          <li>Supervising student research projects and theses</li>
-          <li>Developing curriculum and course materials</li>
-          <li>Conducting research in AI and related fields</li>
-          <li>Participating in departmental and university committees</li>
-        </ul>
-      </div>
-    </section>
-  </div> <!-- End of Middle Column -->
-
-  <!-- Right empty space for balance -->
-  <div class="about-space-column"></div>
-</div> <!-- End of Container -->
-
 <style>
-/* Main Container */
-.about-container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 2rem;
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 4rem;
+/* RESET AND OVERRIDE ANY CONFLICTING STYLES */
+.about-page-wrapper * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* Left Photo Column */
-.about-photo-column {
-  flex: 0 0 300px;
-  min-width: 300px;
+.about-page-wrapper {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
 }
 
-.photo-sticky-wrapper {
-  position: sticky;
-  top: 2rem;
-  text-align: center;
-  padding: 1.5rem;
-  background: white;
-  border-radius: 15px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+/* Main Container - Force Layout */
+.about-main-container {
+  display: flex !important;
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  padding: 40px 20px !important;
+  gap: 60px !important;
+  min-height: 100vh;
 }
 
-.profile-photo {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  border: 5px solid #2e8b57;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-  margin-bottom: 1.5rem;
-  object-fit: cover;
+/* Photo Sidebar - Fixed on left */
+.about-photo-sidebar {
+  flex: 0 0 320px !important;
+  width: 320px !important;
+  position: sticky !important;
+  top: 40px !important;
+  height: fit-content !important;
+}
+
+.photo-card {
+  background: white !important;
+  border-radius: 20px !important;
+  padding: 30px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+  text-align: center !important;
+  border: 1px solid #eaeaea !important;
+}
+
+.profile-image {
+  width: 250px !important;
+  height: 250px !important;
+  border-radius: 50% !important;
+  border: 6px solid #2e8b57 !important;
+  margin: 0 auto 25px !important;
+  display: block !important;
+  object-fit: cover !important;
+  background: #f5f5f5 !important;
 }
 
 .profile-name {
-  margin-bottom: 0.5rem;
-  color: #2c3e50;
-  font-size: 1.8rem;
+  font-size: 28px !important;
+  color: #2c3e50 !important;
+  margin-bottom: 10px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
 }
 
 .profile-title {
-  color: #2e8b57;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-size: 1.2rem;
-  font-weight: 600;
+  color: #2e8b57 !important;
+  font-size: 18px !important;
+  margin-bottom: 20px !important;
+  font-weight: 600 !important;
 }
 
-.profile-info {
-  font-size: 1.1rem;
-  color: #555;
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
+.profile-detail {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  margin-bottom: 15px !important;
+  color: #555 !important;
+  font-size: 16px !important;
 }
 
-.profile-info i {
-  color: #2e8b57;
-  width: 20px;
+.profile-detail i {
+  color: #2e8b57 !important;
+  width: 20px !important;
 }
 
-.profile-buttons {
-  margin: 1.5rem 0;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+.contact-buttons {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 15px !important;
+  margin-top: 25px !important;
 }
 
 .btn {
-  padding: 0.8rem 1.5rem;
-  text-decoration: none;
-  border-radius: 30px;
-  font-weight: 600;
-  display: inline-block;
-  text-align: center;
-  transition: all 0.3s ease;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  display: block !important;
+  padding: 14px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  border-radius: 50px !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  transition: all 0.3s ease !important;
+  border: 2px solid transparent !important;
 }
 
-.btn--cv {
-  background: #2e8b57;
-  color: white;
-  border: 2px solid #2e8b57;
+.btn-cv {
+  background: #2e8b57 !important;
+  color: white !important;
 }
 
-.btn--contact {
-  background: white;
-  color: #2e8b57;
-  border: 2px solid #2e8b57;
+.btn-contact {
+  background: white !important;
+  color: #2e8b57 !important;
+  border-color: #2e8b57 !important;
 }
 
 .btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(46, 139, 87, 0.3);
+  transform: translateY(-3px) !important;
+  box-shadow: 0 10px 20px rgba(46, 139, 87, 0.2) !important;
 }
 
-/* Middle Content Column */
-.about-content-column {
-  flex: 1;
-  min-width: 0;
-  max-width: 800px;
-  margin: 0 auto;
+/* Content Area - Middle */
+.about-content-area {
+  flex: 1 !important;
+  min-width: 0 !important;
+  max-width: 800px !important;
 }
 
-.content-section {
-  margin-bottom: 2.5rem;
+.section {
+  margin-bottom: 50px !important;
 }
 
 .section-title {
-  color: #2e8b57;
-  margin-bottom: 1.5rem;
-  border-bottom: 2px solid #e8f5e8;
-  padding-bottom: 0.5rem;
+  color: #2e8b57 !important;
+  font-size: 28px !important;
+  margin-bottom: 25px !important;
+  padding-bottom: 10px !important;
+  border-bottom: 3px solid #e8f5e8 !important;
+  font-weight: 700 !important;
 }
 
+/* Biography Text - Fix word breaking */
 .biography-text {
-  line-height: 1.6;
-  color: #555;
-  text-align: justify;
-  margin-bottom: 1rem;
+  font-size: 18px !important;
+  line-height: 1.8 !important;
+  color: #444 !important;
+  text-align: justify !important;
+  margin-bottom: 20px !important;
+  word-wrap: normal !important;
+  word-break: normal !important;
+  white-space: normal !important;
+  overflow-wrap: normal !important;
+}
+
+.biography-text p {
+  margin-bottom: 20px !important;
 }
 
 /* Education Cards */
 .education-card {
-  background: #f8f9fa;
-  padding: 1.5rem;
-  border-radius: 0 8px 8px 0;
-  margin-bottom: 1rem;
-}
-
-.card--masters {
-  border-left: 4px solid #3cb371;
-}
-
-.card--bachelors {
-  border-left: 4px solid #2e8b57;
+  background: #f8f9fa !important;
+  padding: 25px !important;
+  border-radius: 10px !important;
+  margin-bottom: 20px !important;
+  border-left: 5px solid !important;
 }
 
 .education-degree {
-  color: #2c3e50;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-size: 1.3rem;
+  font-size: 20px !important;
+  color: #2c3e50 !important;
+  margin-bottom: 15px !important;
+  font-weight: 600 !important;
 }
 
 .education-detail {
-  color: #555;
-  margin-bottom: 0.3rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.education-detail i {
-  width: 20px;
-}
-
-.card--masters .education-detail i {
-  color: #3cb371;
-}
-
-.card--bachelors .education-detail i {
-  color: #2e8b57;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  margin-bottom: 8px !important;
+  color: #555 !important;
+  font-size: 16px !important;
 }
 
 /* Research Grid */
 .research-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+  gap: 20px !important;
+  margin-top: 20px !important;
 }
 
 .research-card {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-  transition: transform 0.3s ease;
+  background: white !important;
+  padding: 25px !important;
+  border-radius: 10px !important;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05) !important;
+  border-top: 4px solid !important;
+  transition: transform 0.3s ease !important;
 }
 
 .research-card:hover {
-  transform: translateY(-5px);
-}
-
-.card--ai {
-  border-top: 4px solid #2e8b57;
-}
-
-.card--ml {
-  border-top: 4px solid #3cb371;
-}
-
-.card--nlp {
-  border-top: 4px solid #2e8b57;
+  transform: translateY(-5px) !important;
 }
 
 .research-title {
-  color: #2c3e50;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 1.2rem;
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  font-size: 18px !important;
+  color: #2c3e50 !important;
+  margin-bottom: 15px !important;
+  font-weight: 600 !important;
 }
 
 .research-title i {
-  font-size: 1.3rem;
-}
-
-.card--ai .research-title i {
-  color: #2e8b57;
-}
-
-.card--ml .research-title i {
-  color: #3cb371;
-}
-
-.card--nlp .research-title i {
-  color: #2e8b57;
-}
-
-.research-description {
-  color: #555;
-  line-height: 1.5;
-  font-size: 0.95rem;
-  margin: 0;
+  font-size: 22px !important;
 }
 
 /* Academic Position */
 .position-card {
-  background: #f8f9fa;
-  padding: 1.5rem;
-  border-radius: 8px;
+  background: #f8f9fa !important;
+  padding: 25px !important;
+  border-radius: 10px !important;
 }
 
 .position-title {
-  color: #2c3e50;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-size: 1.3rem;
-}
-
-.position-detail {
-  color: #555;
-  margin-bottom: 0.5rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.position-detail i {
-  color: #2e8b57;
-  width: 20px;
-}
-
-.responsibilities-title {
-  color: #3cb371;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  font-size: 20px !important;
+  color: #2c3e50 !important;
+  margin-bottom: 15px !important;
+  font-weight: 600 !important;
 }
 
 .responsibilities-list {
-  color: #555;
-  padding-left: 1.5rem;
-  margin: 0;
+  padding-left: 20px !important;
+  margin-top: 15px !important;
 }
 
 .responsibilities-list li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 10px !important;
+  color: #555 !important;
 }
 
-/* Right Space Column */
-.about-space-column {
-  flex: 0 0 300px;
-  min-width: 300px;
-}
-
-/* Social Profiles Sidebar */
+/* Social Sidebar */
 .social-sidebar {
-  position: fixed;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 100;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  background: rgba(255, 255, 255, 0.95);
-  padding: 15px 10px;
-  border-radius: 15px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(46, 139, 87, 0.2);
+  position: fixed !important;
+  right: 20px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  z-index: 1000 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  background: white !important;
+  padding: 15px !important;
+  border-radius: 15px !important;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1) !important;
 }
 
-.social-sidebar a {
-  width: 45px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  color: white;
-  font-size: 1.2rem;
-  transition: all 0.3s ease;
-  text-decoration: none;
-  position: relative;
+.social-link {
+  width: 50px !important;
+  height: 50px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50% !important;
+  color: white !important;
+  font-size: 20px !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
 }
 
-.social-sidebar a:hover {
-  transform: translateY(-3px) scale(1.1);
+.social-link:hover {
+  transform: scale(1.1) !important;
 }
-
-.social-sidebar a:hover::after {
-  content: attr(title);
-  position: absolute;
-  right: 100%;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #2e8b57;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 4px;
-  font-size: 0.8rem;
-  white-space: nowrap;
-  margin-right: 10px;
-  opacity: 0.9;
-}
-
-.social-sidebar .github { background: #333; }
-.social-sidebar .scholar { background: #4285f4; }
-.social-sidebar .linkedin { background: #0077b5; }
-.social-sidebar .orcid { background: #a6ce39; }
-.social-sidebar .researchgate { background: #00d0af; }
-.social-sidebar .email { background: #2e8b57; }
 
 /* Responsive Design */
-@media (max-width: 1400px) {
-  .about-container {
-    gap: 3rem;
-  }
-}
-
 @media (max-width: 1200px) {
-  .about-container {
-    flex-wrap: wrap;
-    justify-content: center;
+  .about-main-container {
+    flex-direction: column !important;
+    gap: 40px !important;
   }
   
-  .about-photo-column {
-    flex: 0 0 100%;
-    margin-bottom: 2rem;
+  .about-photo-sidebar {
+    position: static !important;
+    width: 100% !important;
+    max-width: 500px !important;
+    margin: 0 auto !important;
   }
   
-  .about-content-column {
-    flex: 1;
-    min-width: 100%;
+  .photo-card {
+    max-width: 500px !important;
+    margin: 0 auto !important;
   }
   
-  .about-space-column {
-    display: none;
-  }
-  
-  .photo-sticky-wrapper {
-    position: static;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-  .profile-photo {
-    width: 200px;
-    height: 200px;
-  }
-  
-  .profile-buttons {
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-}
-
-@media (max-width: 1100px) {
   .social-sidebar {
-    position: static;
-    transform: none;
-    flex-direction: row;
-    justify-content: center;
-    margin: 2rem auto;
-    width: 90%;
-    max-width: 500px;
-    padding: 15px;
-  }
-  
-  .social-sidebar a {
-    flex: 1;
-    max-width: 45px;
+    position: static !important;
+    transform: none !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    max-width: 500px !important;
+    margin: 40px auto !important;
   }
 }
 
 @media (max-width: 768px) {
-  .about-container {
-    padding: 0 1rem;
-    gap: 2rem;
+  .about-main-container {
+    padding: 20px 15px !important;
   }
   
-  .profile-photo {
-    width: 180px;
-    height: 180px;
+  .profile-image {
+    width: 200px !important;
+    height: 200px !important;
   }
   
   .profile-name {
-    font-size: 1.5rem;
-  }
-  
-  .profile-title {
-    font-size: 1.1rem;
-  }
-  
-  .profile-buttons {
-    flex-direction: column;
-    width: 100%;
-  }
-  
-  .btn {
-    width: 100%;
-    margin-bottom: 0.5rem;
-  }
-  
-  .research-grid {
-    grid-template-columns: 1fr;
+    font-size: 24px !important;
   }
   
   .section-title {
-    font-size: 1.5rem;
+    font-size: 24px !important;
+  }
+  
+  .biography-text {
+    font-size: 16px !important;
+    text-align: left !important;
+  }
+  
+  .research-grid {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .contact-buttons {
+    flex-direction: column !important;
+  }
+  
+  .btn {
+    width: 100% !important;
   }
 }
+
+/* Force text to flow properly */
+p, h1, h2, h3, h4, h5, h6, div, span {
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+}
 </style>
+
+<div class="about-page-wrapper">
+  <!-- Social Profiles Sidebar -->
+  <nav class="social-sidebar">
+    <a href="https://github.com/BedruYimam" target="_blank" class="social-link github" title="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" class="social-link scholar" title="Google Scholar">
+      <i class="ai ai-google-scholar"></i>
+    </a>
+    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-link linkedin" title="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://orcid.org/YOUR_ORCID" target="_blank" class="social-link orcid" title="ORCID">
+      <i class="ai ai-orcid"></i>
+    </a>
+    <a href="https://www.researchgate.net/profile/YOUR_PROFILE" target="_blank" class="social-link researchgate" title="ResearchGate">
+      <i class="ai ai-researchgate"></i>
+    </a>
+    <a href="mailto:bedruy4@gmail.com" class="social-link email" title="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </nav>
+
+  <div class="about-main-container">
+    <!-- Left Column: Photo and Basic Info -->
+    <div class="about-photo-sidebar">
+      <div class="photo-card">
+        <img src="/images/bedru.jpg" alt="Bedru Yimam Ahmed" class="profile-image">
+        
+        <h1 class="profile-name">Bedru Yimam Ahmed</h1>
+        <h3 class="profile-title">Lecturer & Researcher in Information Technology</h3>
+        
+        <div class="profile-detail">
+          <i class="fas fa-university"></i>
+          <span>Wollo University, Dessie, Ethiopia</span>
+        </div>
+        
+        <div class="profile-detail">
+          <i class="fas fa-envelope"></i>
+          <span>bedruy4@gmail.com</span>
+        </div>
+        
+        <!-- Quick Contact Buttons -->
+        <div class="contact-buttons">
+          <a href="/assets/documents/cv.pdf" class="btn btn-cv">
+            <i class="fas fa-download"></i> Download CV
+          </a>
+          <a href="/contact/" class="btn btn-contact">
+            <i class="fas fa-envelope"></i> Contact Me
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Middle Column: Biography and Details -->
+    <div class="about-content-area">
+      
+      <section class="section">
+        <h2 class="section-title">Biography</h2>
+        <div class="biography-text">
+          <p>I am a dedicated Information Technology lecturer and researcher at Wollo University in Ethiopia, specializing in Artificial Intelligence, Machine Learning, and Computer Vision. My academic journey is driven by a passion for leveraging technology to address local and regional development challenges while contributing to the advancement of information Technology education in Ethiopia.</p>
+          <p>With a strong commitment to both teaching and research, I strive to bridge the gap between theoretical knowledge and practical applications, preparing the next generation of Ethiopian technologists and researchers to tackle complex problems through innovative solutions.</p>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section class="section">
+        <h2 class="section-title">Education</h2>
+        
+        <div class="education-card" style="border-left-color: #3cb371;">
+          <h3 class="education-degree">Master of Science (MSc) in Information Technology</h3>
+          <div class="education-detail">
+            <i class="fas fa-university"></i>
+            <span>BahirDar University, BahirDar, Ethiopia</span>
+          </div>
+          <div class="education-detail">
+            <i class="far fa-calendar-alt"></i>
+            <span>2019 - 2021 G.c</span>
+          </div>
+          <div class="education-detail">
+            <i class="fas fa-graduation-cap"></i>
+            <span>Thesis: Graph-based dependency parsing for Amharic Language using Deep Learning</span>
+          </div>
+        </div>
+        
+        <div class="education-card" style="border-left-color: #2e8b57;">
+          <h3 class="education-degree">Bachelor of Science (BSc) in Computer Science</h3>
+          <div class="education-detail">
+            <i class="fas fa-university"></i>
+            <span>Woldia University, Woldia, Ethiopia</span>
+          </div>
+          <div class="education-detail">
+            <i class="far fa-calendar-alt"></i>
+            <span>2013 - 2017 G.C</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Research Focus -->
+      <section class="section">
+        <h2 class="section-title">Research Focus</h2>
+        
+        <div class="research-grid">
+          <div class="research-card" style="border-top-color: #2e8b57;">
+            <h3 class="research-title">
+              <i class="fas fa-brain"></i>
+              AI for Social Good
+            </h3>
+            <p class="biography-text" style="font-size: 16px; margin: 0;">
+              Developing AI solutions for agriculture, healthcare, and education in Ethiopian contexts.
+            </p>
+          </div>
+          
+          <div class="research-card" style="border-top-color: #3cb371;">
+            <h3 class="research-title">
+              <i class="fas fa-chart-line"></i>
+              Machine Learning
+            </h3>
+            <p class="biography-text" style="font-size: 16px; margin: 0;">
+              Algorithms for image analysis, predictive modeling, and natural language processing.
+            </p>
+          </div>
+          
+          <div class="research-card" style="border-top-color: #2e8b57;">
+            <h3 class="research-title">
+              <i class="fas fa-language"></i>
+              NLP for Ethiopian Languages
+            </h3>
+            <p class="biography-text" style="font-size: 16px; margin: 0;">
+              Computational tools and resources for Amharic and other Ethiopian languages.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Academic Positions -->
+      <section class="section">
+        <h2 class="section-title">Academic Positions</h2>
+        
+        <div class="position-card">
+          <h3 class="position-title">
+            Lecturer, Department of Computer Science
+          </h3>
+          <div class="education-detail">
+            <i class="fas fa-university"></i>
+            <span>Wollo University, Dessie, Ethiopia</span>
+          </div>
+          <div class="education-detail">
+            <i class="far fa-calendar-alt"></i>
+            <span>[Start Year] - Present</span>
+          </div>
+          
+          <h4 style="color: #3cb371; margin-top: 20px; margin-bottom: 10px; font-size: 18px;">Responsibilities:</h4>
+          <ul class="responsibilities-list">
+            <li>Teaching undergraduate and graduate courses in computer science</li>
+            <li>Supervising student research projects and theses</li>
+            <li>Developing curriculum and course materials</li>
+            <li>Conducting research in AI and related fields</li>
+            <li>Participating in departmental and university committees</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+<script>
+// Force layout recalculation on load
+document.addEventListener('DOMContentLoaded', function() {
+  // Force reflow to fix any layout issues
+  document.body.style.display = 'none';
+  document.body.offsetHeight; // Trigger reflow
+  document.body.style.display = '';
+  
+  // Ensure text flows properly
+  const textElements = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, div, span');
+  textElements.forEach(el => {
+    el.style.whiteSpace = 'normal';
+    el.style.wordBreak = 'normal';
+    el.style.overflowWrap = 'normal';
+  });
+});
+</script>
