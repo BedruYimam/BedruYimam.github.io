@@ -22,15 +22,17 @@ classes: wide
   line-height: 1.6;
   color: #333;
   padding: 20px;
+  min-height: 100vh;
 }
 
 /* Main Container */
 .about-main-container {
   display: flex !important;
-  max-width: 1200px !important;
+  max-width: 1400px !important;
   margin: 0 auto !important;
-  gap: 50px !important;
+  gap: 40px !important;
   align-items: flex-start !important;
+  position: relative;
 }
 
 /* Left Column: Photo Section */
@@ -39,7 +41,9 @@ classes: wide
   width: 320px !important;
   position: sticky !important;
   top: 30px !important;
-  text-align: center !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  align-self: flex-start !important;
 }
 
 .profile-image-container {
@@ -61,6 +65,7 @@ classes: wide
   margin-bottom: 10px !important;
   font-weight: 700 !important;
   line-height: 1.2 !important;
+  text-align: left !important;
 }
 
 .profile-header h2 {
@@ -68,6 +73,7 @@ classes: wide
   font-size: 20px !important;
   margin-bottom: 25px !important;
   font-weight: 600 !important;
+  text-align: left !important;
 }
 
 .profile-details {
@@ -76,18 +82,19 @@ classes: wide
 
 .profile-detail {
   display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
+  align-items: flex-start !important;
   gap: 12px !important;
   margin-bottom: 15px !important;
   color: #555 !important;
   font-size: 16px !important;
+  text-align: left !important;
 }
 
 .profile-detail i {
   color: #2e8b57 !important;
   font-size: 18px !important;
   width: 24px !important;
+  flex-shrink: 0 !important;
 }
 
 .profile-actions {
@@ -95,10 +102,11 @@ classes: wide
   display: flex !important;
   flex-direction: column !important;
   gap: 15px !important;
+  align-items: flex-start !important;
 }
 
 .btn {
-  display: block !important;
+  display: inline-block !important;
   padding: 14px 25px !important;
   text-align: center !important;
   text-decoration: none !important;
@@ -107,6 +115,7 @@ classes: wide
   font-size: 16px !important;
   transition: all 0.3s ease !important;
   border: 2px solid transparent !important;
+  min-width: 200px !important;
 }
 
 .btn-cv {
@@ -137,7 +146,9 @@ classes: wide
 .about-middle-column {
   flex: 1 !important;
   min-width: 0 !important;
-  max-width: 700px !important;
+  max-width: 800px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 .content-section {
@@ -151,6 +162,7 @@ classes: wide
   padding-bottom: 10px !important;
   border-bottom: 3px solid #e8f5e8 !important;
   font-weight: 700 !important;
+  text-align: left !important;
 }
 
 .biography-text {
@@ -158,6 +170,7 @@ classes: wide
   line-height: 1.8 !important;
   color: #444 !important;
   margin-bottom: 20px !important;
+  text-align: left !important;
 }
 
 .biography-text p {
@@ -177,6 +190,7 @@ classes: wide
   border-radius: 10px !important;
   border-left: 5px solid !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  text-align: left !important;
 }
 
 .education-card:hover {
@@ -197,6 +211,7 @@ classes: wide
   color: #2c3e50 !important;
   margin-bottom: 15px !important;
   font-weight: 600 !important;
+  text-align: left !important;
 }
 
 .education-detail {
@@ -206,11 +221,13 @@ classes: wide
   margin-bottom: 8px !important;
   color: #555 !important;
   font-size: 16px !important;
+  text-align: left !important;
 }
 
 .education-detail i {
   width: 20px !important;
   color: inherit !important;
+  flex-shrink: 0 !important;
 }
 
 .education-card.masters .education-detail i {
@@ -236,6 +253,7 @@ classes: wide
   box-shadow: 0 5px 15px rgba(0,0,0,0.05) !important;
   border-top: 4px solid !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  text-align: left !important;
 }
 
 .research-card:hover {
@@ -263,10 +281,12 @@ classes: wide
   color: #2c3e50 !important;
   margin-bottom: 15px !important;
   font-weight: 600 !important;
+  text-align: left !important;
 }
 
 .research-title i {
   font-size: 22px !important;
+  flex-shrink: 0 !important;
 }
 
 .research-card.ai .research-title i {
@@ -286,6 +306,7 @@ classes: wide
   line-height: 1.6 !important;
   font-size: 16px !important;
   margin: 0 !important;
+  text-align: left !important;
 }
 
 /* Academic Position */
@@ -293,6 +314,7 @@ classes: wide
   background: #f8f9fa !important;
   padding: 25px !important;
   border-radius: 10px !important;
+  text-align: left !important;
 }
 
 .position-title {
@@ -300,6 +322,7 @@ classes: wide
   color: #2c3e50 !important;
   margin-bottom: 15px !important;
   font-weight: 600 !important;
+  text-align: left !important;
 }
 
 .responsibilities-title {
@@ -308,6 +331,7 @@ classes: wide
   margin-bottom: 10px !important;
   font-size: 18px !important;
   font-weight: 600 !important;
+  text-align: left !important;
 }
 
 .responsibilities-list {
@@ -319,12 +343,13 @@ classes: wide
   margin-bottom: 10px !important;
   color: #555 !important;
   line-height: 1.6 !important;
+  text-align: left !important;
 }
 
-/* Social Icons - Fixed on left */
-.social-left-sidebar {
+/* Social Icons - Fixed on RIGHT side */
+.social-right-sidebar {
   position: fixed !important;
-  left: 20px !important;
+  right: 20px !important;
   top: 50% !important;
   transform: translateY(-50%) !important;
   z-index: 1000 !important;
@@ -364,6 +389,13 @@ classes: wide
 .email { background: #2e8b57 !important; }
 
 /* Responsive Design */
+@media (max-width: 1400px) {
+  .about-main-container {
+    max-width: 1200px !important;
+    gap: 40px !important;
+  }
+}
+
 @media (max-width: 1200px) {
   .about-main-container {
     gap: 40px !important;
@@ -378,6 +410,10 @@ classes: wide
     width: 240px !important;
     height: 240px !important;
   }
+  
+  .btn {
+    min-width: 180px !important;
+  }
 }
 
 @media (max-width: 992px) {
@@ -391,6 +427,36 @@ classes: wide
     width: 100% !important;
     max-width: 500px !important;
     margin: 0 auto !important;
+    text-align: center !important;
+  }
+  
+  .profile-header h1,
+  .profile-header h2,
+  .profile-detail,
+  .biography-text,
+  .section-title,
+  .education-degree,
+  .research-title,
+  .position-title,
+  .responsibilities-title,
+  .responsibilities-list li {
+    text-align: center !important;
+  }
+  
+  .profile-detail {
+    justify-content: center !important;
+  }
+  
+  .profile-actions {
+    align-items: center !important;
+  }
+  
+  .education-detail {
+    justify-content: center !important;
+  }
+  
+  .research-title {
+    justify-content: center !important;
   }
   
   .profile-image {
@@ -398,10 +464,11 @@ classes: wide
     height: 250px !important;
   }
   
-  .social-left-sidebar {
+  .social-right-sidebar {
     position: fixed !important;
     top: 20px !important;
     left: 50% !important;
+    right: auto !important;
     transform: translateX(-50%) !important;
     flex-direction: row !important;
     width: auto !important;
@@ -440,7 +507,7 @@ classes: wide
     grid-template-columns: 1fr !important;
   }
   
-  .social-left-sidebar {
+  .social-right-sidebar {
     padding: 10px !important;
     gap: 8px !important;
   }
@@ -455,11 +522,13 @@ classes: wide
     flex-direction: row !important;
     justify-content: center !important;
     flex-wrap: wrap !important;
+    gap: 10px !important;
   }
   
   .btn {
     padding: 12px 20px !important;
     font-size: 14px !important;
+    min-width: 160px !important;
   }
 }
 
@@ -477,10 +546,23 @@ classes: wide
   
   .profile-actions {
     flex-direction: column !important;
+    width: 100% !important;
   }
   
   .btn {
     width: 100% !important;
+    min-width: unset !important;
+  }
+  
+  .social-right-sidebar {
+    gap: 6px !important;
+    padding: 8px !important;
+  }
+  
+  .social-link {
+    width: 35px !important;
+    height: 35px !important;
+    font-size: 14px !important;
   }
 }
 
@@ -493,8 +575,8 @@ p, h1, h2, h3, h4, h5, h6, div, span {
 </style>
 
 <div class="about-page-wrapper">
-  <!-- Social Sidebar - Fixed on left -->
-  <nav class="social-left-sidebar">
+  <!-- Social Sidebar - Fixed on RIGHT side -->
+  <nav class="social-right-sidebar">
     <a href="https://github.com/BedruYimam" target="_blank" class="social-link github" title="GitHub">
       <i class="fab fa-github"></i>
     </a>
