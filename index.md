@@ -16,7 +16,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn More"
   - title: "Teaching"
-    excerpt: "Computer Science courses and curriculum development"
+    excerpt: "Information Technology courses and curriculum development"
     url: "/teaching/"
     btn_class: "btn--primary"
     btn_label: "View Courses"
@@ -58,19 +58,19 @@ feature_row:
 
 {% include feature_row %}
 
-<!-- Additional Sections -->
+
+  <!-- Additional Sections -->
 <div style="max-width: 1200px; margin: 3rem auto; padding: 0 1rem;">
   <!-- About Section -->
   <section style="margin: 3rem 0;">
     <h2 style="text-align: center; color: #2e8b57; margin-bottom: 1.5rem;">About Me</h2>
     <p style="text-align: center; max-width: 800px; margin: 0 auto; line-height: 1.6; color: #555;">
-      I am a dedicated Computer Science lecturer and researcher at Wollo University in Ethiopia. 
+      I am a dedicated Information Technology lecturer and researcher at Wollo University in Ethiopia. 
       My research focuses on Artificial Intelligence, Machine Learning, and Computer Vision, 
       with applications addressing local and regional challenges. I am passionate about 
       technology education and research that contributes to sustainable development in Africa.
     </p>
   </section>
-  
   <!-- Research Interests -->
   <section style="margin: 3rem 0;">
     <h2 style="text-align: center; color: #2e8b57; margin-bottom: 1.5rem;">Research Interests</h2>
