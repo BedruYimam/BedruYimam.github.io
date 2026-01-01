@@ -40,7 +40,7 @@ classes: wide
   flex: 0 0 320px !important;
   width: 320px !important;
   position: sticky !important;
-  top: 30px !important;
+  top: 60px !important;
   text-align: left !important;
   margin-left: -80 !important;
   align-self: flex-start !important;
