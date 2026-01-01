@@ -63,7 +63,7 @@ classes: wide
     <section style="margin-bottom: 2.5rem;">
       <h2 style="color: #2e8b57; margin-bottom: 1.5rem;">Biography</h2>
       <p style="line-height: 1.6; color: #555; text-align: justify;">
-        I am a dedicated Computer Science lecturer and researcher at Wollo University in Ethiopia, specializing in Artificial Intelligence, Machine Learning, and Computer Vision. My academic journey is driven by a passion for leveraging technology to address local and regional development challenges while contributing to the advancement of computer science education in Ethiopia.
+        I am a dedicated Information Technology lecturer and researcher at Wollo University in Ethiopia, specializing in Artificial Intelligence, Machine Learning, and Computer Vision. My academic journey is driven by a passion for leveraging technology to address local and regional development challenges while contributing to the advancement of information Technology education in Ethiopia.
       </p>
       <p style="line-height: 1.6; color: #555; text-align: justify;">
         With a strong commitment to both teaching and research, I strive to bridge the gap between theoretical knowledge and practical applications, preparing the next generation of Ethiopian technologists and researchers to tackle complex problems through innovative solutions.
@@ -74,35 +74,21 @@ classes: wide
     <section style="margin-bottom: 2.5rem;">
       <h2 style="color: #2e8b57; margin-bottom: 1.5rem;">Education</h2>
       
-      <div style="background: #f8f9fa; padding: 1.5rem; border-left: 4px solid #2e8b57; border-radius: 0 8px 8px 0; margin-bottom: 1rem;">
-        <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">Doctor of Philosophy (PhD) in Computer Science</h3>
-        <p style="color: #555; margin-bottom: 0.3rem;">
-          <i class="fas fa-university" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
-          [University Name], [City, Country]
-        </p>
-        <p style="color: #555; margin-bottom: 0.3rem;">
-          <i class="far fa-calendar-alt" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
-          [Year] - Present
-        </p>
-        <p style="color: #555; margin-bottom: 0.3rem;">
-          <i class="fas fa-graduation-cap" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
-          Thesis: [Your Thesis Title]
-        </p>
-      </div>
+  
       
       <div style="background: #f8f9fa; padding: 1.5rem; border-left: 4px solid #3cb371; border-radius: 0 8px 8px 0; margin-bottom: 1rem;">
-        <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">Master of Science (MSc) in Computer Science</h3>
+        <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">Master of Science (MSc) in Information Technology</h3>
         <p style="color: #555; margin-bottom: 0.3rem;">
           <i class="fas fa-university" style="color: #3cb371; margin-right: 0.5rem;"></i> 
-          [University Name], [City, Country]
+          [BahirDar University], [BahirDar, Ethiopia]
         </p>
         <p style="color: #555; margin-bottom: 0.3rem;">
           <i class="far fa-calendar-alt" style="color: #3cb371; margin-right: 0.5rem;"></i> 
-          [Year] - [Year]
+          [2019] - [2021] G.c
         </p>
         <p style="color: #555; margin-bottom: 0.3rem;">
           <i class="fas fa-graduation-cap" style="color: #3cb371; margin-right: 0.5rem;"></i> 
-          Thesis: [Your Thesis Title]
+          Thesis: [Graph-based dependency parsing for Amharic Language using Deep Learning]
         </p>
       </div>
       
@@ -110,11 +96,11 @@ classes: wide
         <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">Bachelor of Science (BSc) in Computer Science</h3>
         <p style="color: #555; margin-bottom: 0.3rem;">
           <i class="fas fa-university" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
-          [University Name], [City, Country]
+          [Woldia University], [Woldia, Ethiopia]
         </p>
         <p style="color: #555; margin-bottom: 0.3rem;">
           <i class="far fa-calendar-alt" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
-          [Year] - [Year]
+          [2013] - [2017] G.C
         </p>
       </div>
     </section>
