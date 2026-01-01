@@ -72,14 +72,14 @@ header:
   </section>
 </div>
 
-<!-- Call to Action Section -->
-<div style="background: linear-gradient(135deg, #2e8b57 0%, #3cb371 100%); color: white; padding: 3rem 1rem; text-align: center; margin-top: 3rem;">
+<!-- Call to Action Section - Changed Background Color -->
+<div style="background: #1a5c36; color: white; padding: 3rem 1rem; text-align: center; margin-top: 3rem;">
   <h2 style="margin-top: 0; margin-bottom: 1rem;">Interested in Collaboration?</h2>
   <p style="max-width: 600px; margin: 0 auto 1.5rem auto; opacity: 0.9;">
     I welcome collaboration opportunities for research projects, student supervision, 
     and academic partnerships focused on technology and development in Ethiopia.
   </p>
-  <a href="/contact/" class="btn btn--primary" style="background: white; color: #2e8b57; border: none; padding: 0.8rem 2rem; font-weight: 600;">
+  <a href="/contact/" class="btn btn--primary" style="background: white; color: #1a5c36; border: none; padding: 0.8rem 2rem; font-weight: 600;">
     Get In Touch <i class="fas fa-arrow-right"></i>
   </a>
 </div>
