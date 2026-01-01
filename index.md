@@ -1,5 +1,5 @@
 ---
-title: "Home"
+
 layout: splash
 header:
   overlay_color: "#2e8b57"
@@ -31,8 +31,6 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Browse Publications"
 ---
-
-
 
 <div class="author__avatar" style="text-align: center; margin: 2rem auto;">
   <img src="images/bedru.jpg" alt="Bedru Yimam Ahmed" class="profile-image">
