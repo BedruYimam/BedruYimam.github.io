@@ -26,7 +26,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Browse Publications"
 ---
-
+{% include feature_row %}
 <div class="author__avatar" style="text-align: center; margin: 2rem auto;">
   <img src="images/bedru.jpg" alt="Bedru Yimam Ahmed" class="profile-image" style="width: 250px; height: 250px; border-radius: 50%; border: 5px solid #2e8b57; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);">
 </div>
@@ -56,7 +56,7 @@ feature_row:
   </div>
 </div>
 
-{% include feature_row %}
+
 
 
   <!-- Additional Sections -->
