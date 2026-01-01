@@ -1,6 +1,5 @@
 ---
 layout: single
-
 permalink: /about/
 author_profile: false  # Changed to false to customize layout
 classes: wide
@@ -28,11 +27,11 @@ classes: wide
   </a>
 </nav>
 
-<div class="about-container" style="display: flex; flex-wrap: wrap; gap: 3rem; margin: 2rem 0;">
+<div class="about-container" style="max-width: 1400px; margin: 0 auto; padding: 0 2rem; display: flex; flex-wrap: nowrap; gap: 4rem;">
 
   <!-- Left Column: Photo and Basic Info -->
-  <div class="about-photo" style="flex: 1; min-width: 300px;">
-    <div style="text-align: center;">
+  <div class="about-photo" style="flex: 0 0 300px; min-width: 300px;">
+    <div style="position: sticky; top: 2rem; text-align: center;">
       <img src="/images/bedru.jpg" alt="Bedru Yimam Ahmed" style="width: 250px; height: 250px; border-radius: 50%; border: 5px solid #2e8b57; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); margin-bottom: 1.5rem;">
       
       <h1 style="margin-bottom: 0.5rem; color: #2c3e50;">Bedru Yimam Ahmed</h1>
@@ -57,8 +56,8 @@ classes: wide
     </div>
   </div>
 
-  <!-- Right Column: Biography and Details -->
-  <div class="about-content" style="flex: 2; min-width: 300px;">
+  <!-- Middle Column: Biography and Details -->
+  <div class="about-content" style="flex: 1; min-width: 0; max-width: 800px; margin: 0 auto;">
     
     <section style="margin-bottom: 2.5rem;">
       <h2 style="color: #2e8b57; margin-bottom: 1.5rem;">Biography</h2>
@@ -73,8 +72,6 @@ classes: wide
     <!-- Education Section -->
     <section style="margin-bottom: 2.5rem;">
       <h2 style="color: #2e8b57; margin-bottom: 1.5rem;">Education</h2>
-      
-  
       
       <div style="background: #f8f9fa; padding: 1.5rem; border-left: 4px solid #3cb371; border-radius: 0 8px 8px 0; margin-bottom: 1rem;">
         <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">Master of Science (MSc) in Information Technology</h3>
@@ -172,7 +169,11 @@ classes: wide
       </div>
     </section>
 
-  </div> <!-- End of Right Column -->
+  </div> <!-- End of Middle Column -->
+
+  <!-- Right empty space for balance -->
+  <div style="flex: 0 0 300px; min-width: 300px;"></div>
+
 </div> <!-- End of Container -->
 
 <!-- Add Font Awesome Icons -->
@@ -266,6 +267,45 @@ classes: wide
 }
 
 /* Responsive Design */
+@media (max-width: 1400px) {
+  .about-container {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .about-photo {
+    flex: 0 0 100%;
+    margin-bottom: 2rem;
+  }
+  
+  .about-content {
+    flex: 1;
+    min-width: 100%;
+  }
+  
+  div[style*="flex: 0 0 300px"]:last-child {
+    display: none;
+  }
+  
+  .about-photo div {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-photo img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
 @media (max-width: 1100px) {
   .social-sidebar {
     position: static;
@@ -282,22 +322,23 @@ classes: wide
     flex: 1;
     max-width: 45px;
   }
-  
-  .about-container {
-    flex-direction: column;
-  }
 }
 
 @media (max-width: 768px) {
-  .about-photo img {
-    width: 200px;
-    height: 200px;
+  .about-container {
+    padding: 0 1rem;
+    gap: 2rem;
   }
   
   .btn--primary {
     width: 100%;
     margin-bottom: 0.5rem;
     text-align: center;
+  }
+  
+  .about-photo img {
+    width: 180px;
+    height: 180px;
   }
 }
 </style>
