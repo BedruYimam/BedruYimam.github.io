@@ -92,7 +92,7 @@ header:
 <style>
 /* Custom styles for splash page */
 .btn--primary {
-  background: linear-gradient(135deg, #2e8b57 0%, #3cb371 100%);
+  background: whitegray;
   border: none;
   border-radius: 30px;
   padding: 0.8rem 2rem;
