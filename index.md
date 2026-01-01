@@ -56,6 +56,7 @@ header:
   </section>
 
   <!-- Research Interests Section -->
+  <div>
   <section style="margin: 3rem 0;">
     <h2 style="color: #2e8b57; margin-bottom: 1.5rem; text-align: center;">Research Interests</h2>
     <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.8rem; margin: 1rem 0;">
