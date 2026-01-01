@@ -29,32 +29,7 @@ classes: wide
 
 <div class="about-layout">
   
-  <!-- Left Column: Photo and Basic Info (Fixed Position) -->
-  <div class="left-column">
-    <div class="profile-card">
-      <img src="/images/bedru.jpg" alt="Bedru Yimam Ahmed" class="profile-photo">
-      
-      <h1 class="profile-name">Bedru Yimam Ahmed</h1>
-      <h3 class="profile-title">Lecturer & Researcher in Information Technology</h3>
-      
-      <p class="profile-info">
-        <i class="fas fa-university"></i> Wollo University, Dessie, Ethiopia
-      </p>
-      <p class="profile-info">
-        <i class="fas fa-envelope"></i> bedruy4@gmail.com
-      </p>
-      
-      <!-- Quick Contact Buttons -->
-      <div class="profile-buttons">
-        <a href="/assets/documents/cv.pdf" class="btn btn--primary cv-btn">
-          <i class="fas fa-download"></i> Download CV
-        </a>
-        <a href="/contact/" class="btn btn--primary contact-btn">
-          <i class="fas fa-envelope"></i> Contact Me
-        </a>
-      </div>
-    </div>
-  </div>
+ 
 
   <!-- Right Column: Biography and Details (Centered Content) -->
   <div class="right-column">
