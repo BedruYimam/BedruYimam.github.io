@@ -15,7 +15,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn More"
   - title: "Teaching"
-    excerpt: "Information Technology courses and curriculum development"
+    excerpt: "Computer Science courses and curriculum development"
     url: "/teaching/"
     btn_class: "btn--primary"
     btn_label: "View Courses"
@@ -27,12 +27,12 @@ feature_row:
 ---
 
 <div class="author__avatar" style="text-align: center; margin: 2rem auto;">
-  <img src="images/bedru.jpg" alt="Bedru Yimam Ahmed" class="profile-image" style="width: 290px; height: 250px; border-radius: 50%; border: 5px solid #2e8b57; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);">
+  <img src="images/bedru.jpg" alt="Bedru Yimam Ahmed" class="profile-image" style="width: 250px; height: 250px; border-radius: 50%; border: 5px solid #2e8b57; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);">
 </div>
 
 <div style="text-align: center; margin: 2rem 0; padding: 0 1rem;">
   <h1 style="margin-bottom: 0.5rem; color: #2c3e50;">Bedru Yimam Ahmed</h1>
-  <h3 style="color: #2e8b57; margin-top: 0; margin-bottom: 0.5rem;">Lecturer & Researcher in Information Technology </h3>
+  <h3 style="color: #2e8b57; margin-top: 0; margin-bottom: 0.5rem;">Lecturer & Researcher in Computer Science</h3>
   <p style="font-size: 1.1rem; color: #555;">
     <i class="fas fa-university" style="color: #2e8b57;"></i> Wollo University, Dessie, Ethiopia<br>
     <i class="fas fa-envelope" style="color: #2e8b57;"></i> bedruy4@gmail.com
@@ -56,8 +56,8 @@ feature_row:
 
   <!-- About Me Section -->
   <section style="margin: 3rem 0 2rem 0; max-width: 800px; margin-left: auto; margin-right: auto;">
-    <h2 style="color: #2e8b57; margin-bottom: 1.5rem;">About Me</h2>
-    <p style="line-height: 1.6; color: #555;">
+    <h2 style="color: #2e8b57; margin-bottom: 1.5rem; text-align: center;">About Me</h2>
+    <p style="line-height: 1.6; color: #555; text-align: center;">
       I am a dedicated Information Technology lecturer and researcher at Wollo University in Ethiopia. 
       My research focuses on Artificial Intelligence, Machine Learning, and Computer Vision, 
       with applications addressing local and regional challenges. I am passionate about 
@@ -65,7 +65,7 @@ feature_row:
     </p>
   </section>
 
-  <!-- Research Interests Section - Moved below About Me -->
+  <!-- Research Interests Section -->
   <section style="margin: 3rem 0;">
     <h2 style="color: #2e8b57; margin-bottom: 1.5rem; text-align: center;">Research Interests</h2>
     <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.8rem; margin: 1rem 0;">
@@ -79,7 +79,7 @@ feature_row:
         <i class="fas fa-eye"></i> Computer Vision
       </span>
       <span style="background: #e8f5e8; padding: 0.5rem 1rem; border-radius: 20px; color: #2e8b57; font-weight: 500;">
-        <i class="fas fa-language"></i> NLP
+        <i class="fas fa-language"></i> Natural Language Processing
       </span>
       <span style="background: #e8f5e8; padding: 0.5rem 1rem; border-radius: 20px; color: #2e8b57; font-weight: 500;">
         <i class="fas fa-seedling"></i> AI for Development
@@ -88,6 +88,7 @@ feature_row:
   </section>
 </div>
 
+<!-- Feature Row - This should render the three feature cards -->
 {% include feature_row %}
 
 <!-- Call to Action Section -->
@@ -149,6 +150,11 @@ feature_row:
     .author__avatar img {
       width: 200px;
       height: 200px;
+    }
+    
+    /* Make research interest tags wrap better on mobile */
+    .research-interests span {
+      margin: 0.3rem;
     }
   }
 </style>
