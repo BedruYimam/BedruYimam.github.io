@@ -9,24 +9,7 @@ header:
       url: "/contact/"
       btn_class: "btn--primary"
   
-feature_row:
-  - title: "Research"
-    excerpt: "Exploring AI, Machine Learning, and Computer Vision applications"
-    url: "/research/"
-    btn_class: "btn--primary"
-    btn_label: "Learn More"
-  - title: "Teaching"
-    excerpt: "Information Technology courses and curriculum development"
-    url: "/teaching/"
-    btn_class: "btn--primary"
-    btn_label: "View Courses"
-  - title: "Publications"
-    excerpt: "Academic papers and research publications"
-    url: "/publications/"
-    btn_class: "btn--primary"
-    btn_label: "Browse Publications"
----
-{% include feature_row %}
+
 <div class="author__avatar" style="text-align: center; margin: 2rem auto;">
   <img src="images/bedru.jpg" alt="Bedru Yimam Ahmed" class="profile-image" style="width: 250px; height: 250px; border-radius: 50%; border: 5px solid #2e8b57; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);">
 </div>
