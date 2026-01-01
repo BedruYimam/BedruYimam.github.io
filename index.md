@@ -54,7 +54,7 @@ feature_row:
     </a>
   </div>
 
-  <!-- About Me Section - Moved below social links -->
+  <!-- About Me Section -->
   <section style="margin: 3rem 0 2rem 0; max-width: 800px; margin-left: auto; margin-right: auto;">
     <h2 style="color: #2e8b57; margin-bottom: 1.5rem;">About Me</h2>
     <p style="line-height: 1.6; color: #555;">
@@ -64,15 +64,10 @@ feature_row:
       technology education and research that contributes to sustainable development in Africa.
     </p>
   </section>
-</div>
 
-{% include feature_row %}
-
-<!-- Additional Sections -->
-<div style="max-width: 1200px; margin: 3rem auto; padding: 0 1rem;">
-  <!-- Research Interests -->
+  <!-- Research Interests Section - Moved below About Me -->
   <section style="margin: 3rem 0;">
-    <h2 style="text-align: center; color: #2e8b57; margin-bottom: 1.5rem;">Research Interests</h2>
+    <h2 style="color: #2e8b57; margin-bottom: 1.5rem; text-align: center;">Research Interests</h2>
     <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.8rem; margin: 1rem 0;">
       <span style="background: #e8f5e8; padding: 0.5rem 1rem; border-radius: 20px; color: #2e8b57; font-weight: 500;">
         <i class="fas fa-brain"></i> Artificial Intelligence
@@ -93,7 +88,9 @@ feature_row:
   </section>
 </div>
 
-<!-- Single Call to Action Section -->
+{% include feature_row %}
+
+<!-- Call to Action Section -->
 <div style="background: linear-gradient(135deg, #2e8b57 0%, #3cb371 100%); color: white; padding: 3rem 1rem; text-align: center; margin-top: 3rem;">
   <h2 style="margin-top: 0; margin-bottom: 1rem;">Interested in Collaboration?</h2>
   <p style="max-width: 600px; margin: 0 auto 1.5rem auto; opacity: 0.9;">
