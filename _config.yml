@@ -18,7 +18,12 @@ author:
   location: "Dessie, Ethiopia"
   employer: "Wollo University"
   github: "BedruYimam"
+# Custom styling
+sass:
+  sass_dir: _sass
+  style: compressed
 
+# Or add to assets/css/main.scss
 # MUST INCLUDE this section for pages to work
 include:
   - _pages
