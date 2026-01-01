@@ -10,6 +10,28 @@ header:
       btn_class: "btn--primary"
 ---
 
+<!-- Social Profiles Sidebar -->
+<nav class="social-sidebar">
+  <a href="https://github.com/BedruYimam" target="_blank" class="github" title="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" class="scholar" title="Google Scholar">
+    <i class="ai ai-google-scholar"></i>
+  </a>
+  <a href="https://linkedin.com/in/yourprofile" target="_blank" class="linkedin" title="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="https://orcid.org/YOUR_ORCID" target="_blank" class="orcid" title="ORCID">
+    <i class="ai ai-orcid"></i>
+  </a>
+  <a href="https://www.researchgate.net/profile/YOUR_PROFILE" target="_blank" class="researchgate" title="ResearchGate">
+    <i class="ai ai-researchgate"></i>
+  </a>
+  <a href="mailto:bedruy4@gmail.com" class="email" title="Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+</nav>
+
 <div class="author__avatar" style="text-align: center; margin: 2rem auto;">
   <img src="images/bedru.jpg" alt="Bedru Yimam Ahmed" class="profile-image" style="width: 250px; height: 250px; border-radius: 50%; border: 5px solid #2e8b57; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);">
 </div>
@@ -22,7 +44,7 @@ header:
     <i class="fas fa-envelope" style="color: #2e8b57;"></i> bedruy4@gmail.com
   </p>
   
-  <!-- Social Links -->
+  <!-- Social Links (Inline) -->
   <div style="margin: 1.5rem 0;">
     <a href="https://github.com/BedruYimam" target="_blank" style="margin: 0 0.5rem; color: #333; font-size: 1.2rem;">
       <i class="fab fa-github"></i>
@@ -79,31 +101,11 @@ header:
     I welcome collaboration opportunities for research projects, student supervision, 
     and academic partnerships focused on technology and development in Ethiopia.
   </p>
-  <a href="/contact/" class="btn btn--primary" style="background: whitegray; color: #2c3e50; border: none; padding: 0.8rem 2rem; font-weight: 600;">
+  <a href="/contact/" class="btn btn--primary" style="background: white; color: #2e8b57; border: 2px solid #2e8b57; padding: 0.8rem 2rem; font-weight: 600; text-decoration: none; display: inline-block; border-radius: 30px;">
     Get In Touch <i class="fas fa-arrow-right"></i>
   </a>
 </div>
-<!-- Social Profiles Sidebar -->
-<nav class="social-sidebar">
-  <a href="https://github.com/BedruYimam" target="_blank" class="github" title="GitHub">
-    <i class="fab fa-github"></i>
-  </a>
-  <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" class="scholar" title="Google Scholar">
-    <i class="ai ai-google-scholar"></i>
-  </a>
-  <a href="https://linkedin.com/in/yourprofile" target="_blank" class="linkedin" title="LinkedIn">
-    <i class="fab fa-linkedin"></i>
-  </a>
-  <a href="https://orcid.org/YOUR_ORCID" target="_blank" class="orcid" title="ORCID">
-    <i class="ai ai-orcid"></i>
-  </a>
-  <a href="https://www.researchgate.net/profile/YOUR_PROFILE" target="_blank" class="researchgate" title="ResearchGate">
-    <i class="ai ai-researchgate"></i>
-  </a>
-  <a href="mailto:bedruy4@gmail.com" class="email" title="Email">
-    <i class="fas fa-envelope"></i>
-  </a>
-</nav>
+
 <!-- Add Font Awesome Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 <!-- Add Academicons for academic icons -->
@@ -112,19 +114,101 @@ header:
 <style>
 /* Custom styles for splash page */
 .btn--primary {
-  background: whitegray;
-  border: none;
+  background: white;
+  color: #2e8b57;
+  border: 2px solid #2e8b57;
   border-radius: 30px;
   padding: 0.8rem 2rem;
   font-weight: 600;
   transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .btn--primary:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(46, 139, 87, 0.3);
+  background: #2e8b57;
+  color: white;
+}
+
+/* Social Profiles Sidebar */
+.social-sidebar {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 15px 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(46, 139, 87, 0.2);
+}
+
+.social-sidebar a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  position: relative;
+}
+
+.social-sidebar a:hover {
+  transform: translateY(-3px) scale(1.1);
+}
+
+.social-sidebar a:hover::after {
+  content: attr(title);
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #2e8b57;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-right: 10px;
+  opacity: 0.9;
+}
+
+.social-sidebar .github { background: #333; }
+.social-sidebar .scholar { background: #4285f4; }
+.social-sidebar .linkedin { background: #0077b5; }
+.social-sidebar .orcid { background: #a6ce39; }
+.social-sidebar .researchgate { background: #00d0af; }
+.social-sidebar .email { background: #2e8b57; }
+
+@media (max-width: 1100px) {
+  .social-sidebar {
+    position: static;
+    transform: none;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 500px;
+    padding: 15px;
+  }
+  
+  .social-sidebar a {
+    flex: 1;
+    max-width: 45px;
+  }
 }
 
 @media (max-width: 768px) {
