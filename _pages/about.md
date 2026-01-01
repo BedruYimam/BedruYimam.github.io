@@ -143,7 +143,7 @@ Beyond academia, I am passionate about:
 I welcome discussions about research collaborations, student supervision, or potential projects. Please feel free to reach out:
 
 **Office Location:**  
-Department of Computer Science  
+Department of Information Technology  
 Wollo University  
 Dessie, Ethiopia
 
