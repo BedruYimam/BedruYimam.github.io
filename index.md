@@ -83,7 +83,27 @@ header:
     Get In Touch <i class="fas fa-arrow-right"></i>
   </a>
 </div>
-
+<!-- Social Profiles Sidebar -->
+<nav class="social-sidebar">
+  <a href="https://github.com/BedruYimam" target="_blank" class="github" title="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" class="scholar" title="Google Scholar">
+    <i class="ai ai-google-scholar"></i>
+  </a>
+  <a href="https://linkedin.com/in/yourprofile" target="_blank" class="linkedin" title="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="https://orcid.org/YOUR_ORCID" target="_blank" class="orcid" title="ORCID">
+    <i class="ai ai-orcid"></i>
+  </a>
+  <a href="https://www.researchgate.net/profile/YOUR_PROFILE" target="_blank" class="researchgate" title="ResearchGate">
+    <i class="ai ai-researchgate"></i>
+  </a>
+  <a href="mailto:bedruy4@gmail.com" class="email" title="Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+</nav>
 <!-- Add Font Awesome Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 <!-- Add Academicons for academic icons -->
