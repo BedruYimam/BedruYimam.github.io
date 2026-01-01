@@ -45,19 +45,7 @@ header:
   </p>
   
   <!-- Social Links (Inline) -->
-  <div style="margin: 1.5rem 0;">
-    <a href="https://github.com/BedruYimam" target="_blank" style="margin: 0 0.5rem; color: #333; font-size: 1.2rem;">
-      <i class="fab fa-github"></i>
-    </a>
-    <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" style="margin: 0 0.5rem; color: #4285f4; font-size: 1.2rem;">
-      <i class="ai ai-google-scholar"></i>
-    </a>
-    <a href="https://linkedin.com/in/yourprofile" target="_blank" style="margin: 0 0.5rem; color: #0077b5; font-size: 1.2rem;">
-      <i class="fab fa-linkedin"></i>
-    </a>
-    <a href="https://orcid.org/YOUR_ORCID" target="_blank" style="margin: 0 0.5rem; color: #a6ce39; font-size: 1.2rem;">
-      <i class="ai ai-orcid"></i>
-    </a>
+
   </div>
 
   <!-- About Me Section -->
