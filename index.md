@@ -15,7 +15,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn More"
   - title: "Teaching"
-    excerpt: "Computer Science courses and curriculum development"
+    excerpt: "Information Technology courses and curriculum development"
     url: "/teaching/"
     btn_class: "btn--primary"
     btn_label: "View Courses"
@@ -32,7 +32,7 @@ feature_row:
 
 <div style="text-align: center; margin: 2rem 0; padding: 0 1rem;">
   <h1 style="margin-bottom: 0.5rem; color: #2c3e50;">Bedru Yimam Ahmed</h1>
-  <h3 style="color: #2e8b57; margin-top: 0; margin-bottom: 0.5rem;">Lecturer & Researcher in Computer Science</h3>
+  <h3 style="color: #2e8b57; margin-top: 0; margin-bottom: 0.5rem;">Lecturer & Researcher in Information Technology </h3>
   <p style="font-size: 1.1rem; color: #555;">
     <i class="fas fa-university" style="color: #2e8b57;"></i> Wollo University, Dessie, Ethiopia<br>
     <i class="fas fa-envelope" style="color: #2e8b57;"></i> bedruy4@gmail.com
