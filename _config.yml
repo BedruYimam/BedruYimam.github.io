@@ -1,30 +1,35 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-
-# Basic Site Settings
-title: "Bedru Yimam Ahmed | በድሩ ይማም አህመድ"
+# Complete _config.yml
+title: "Dr. Bedru Yimam Ahmed | በድሩ ይማም አህመድ"
 url: "https://bedruyimam.github.io"
 baseurl: ""
 site_theme: "mint"
-repository: "BedruYimam/BedruYimam.github.io"
+locale: "en-US"
+timezone: "Africa/Addis_Ababa"
 
-# Site Author
+# Author
 author:
-  name: "Bedru Yimam"
-  bio: "Lecturer and Researcher at Wollo University"
-  email: "bedruy4@gmail.com"
+  name: "Bedru Yimam Ahmed"
+  avatar: "/images/bedru.jpg"
+  bio: "Lecturer & Researcher in Computer Science at Wollo University, Ethiopia"
+  pronouns: "he/him"
   location: "Dessie, Ethiopia"
   employer: "Wollo University"
+  department: "Computer Science"
+  email: "bedruy4@gmail.com"
+  uri: "https://bedruyimam.github.io"
+  
+  # Academic
+  googlescholar: "https://scholar.google.com/citations?user=YOUR_ID"
+  orcid: "https://orcid.org/YOUR_ORCID"
+  researchgate: "https://www.researchgate.net/profile/YOUR_PROFILE"
+  
+  # Social
   github: "BedruYimam"
-# Custom styling
-sass:
-  sass_dir: _sass
-  style: compressed
+  linkedin: "your-linkedin"
+  twitter: "your-twitter"
+  bluesky: "your-bluesky"
 
-# Or add to assets/css/main.scss
-# MUST INCLUDE this section for pages to work
+# Include collections
 include:
   - _pages
   - _posts
@@ -32,34 +37,87 @@ include:
   - _teaching
   - _talks
   - _portfolio
+  - _drafts
 
 # Collections
 collections:
-  teaching:
-    output: true
   publications:
     output: true
+    permalink: /:collection/:path/
+  teaching:
+    output: true
+    permalink: /:collection/:path/
   talks:
     output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
+    permalink: /:collection/:path/
 
-# Default layouts
+# Defaults
 defaults:
+  # Pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
+      author_profile: true
+  # Publications
   - scope:
       path: ""
       type: publications
     values:
       layout: single
+      author_profile: true
+  # Teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
 
-# Publication Categories (optional)
+# Publication categories
 publication_category:
   journal:
     title: 'Journal Articles'
   conference:
     title: 'Conference Papers'
+  preprint:
+    title: 'Preprints'
+  thesis:
+    title: 'Theses & Dissertations'
+  book:
+    title: 'Books & Chapters'
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/BedruYimam"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:bedruy4@gmail.com"
