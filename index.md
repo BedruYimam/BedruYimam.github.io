@@ -11,8 +11,6 @@ header:
     - label: "Contact Me"
       url: "/contact/"
       btn_class: "btn--primary"
-  caption: "Lecturer & Researcher in Computer Science"
-excerpt: "Bridging technology and education in Ethiopia"
 feature_row:
   - title: "Research"
     excerpt: "Exploring AI, Machine Learning, and Computer Vision applications"
@@ -32,17 +30,10 @@ feature_row:
 ---
 
 <div class="author__avatar" style="text-align: center; margin: 2rem auto;">
-  <img src="images/bedru.jpg" alt="Bedru Yimam Ahmed" class="profile-image" style="width: 250px; height: 250px; border-radius: 50%; border: 5px solid #2e8b57; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);">
+  <img src="images/bedru.jpg" alt="Profile Image" class="profile-image" style="width: 250px; height: 250px; border-radius: 50%; border: 5px solid #2e8b57; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);">
 </div>
 
 <div style="text-align: center; margin: 2rem 0; padding: 0 1rem;">
-  <h1 style="margin-bottom: 0.5rem; color: #2c3e50;">Bedru Yimam Ahmed</h1>
-  <h3 style="color: #2e8b57; margin-top: 0; margin-bottom: 0.5rem;">Lecturer & Researcher in Computer Science</h3>
-  <p style="font-size: 1.1rem; color: #555;">
-    <i class="fas fa-university" style="color: #2e8b57;"></i> Wollo University, Dessie, Ethiopia<br>
-    <i class="fas fa-envelope" style="color: #2e8b57;"></i> bedruy4@gmail.com
-  </p>
-  
   <!-- Social Links -->
   <div style="margin: 1.5rem 0;">
     <a href="https://github.com/BedruYimam" target="_blank" style="margin: 0 0.5rem; color: #333; font-size: 1.2rem;">
@@ -66,12 +57,10 @@ feature_row:
 <div style="max-width: 1200px; margin: 3rem auto; padding: 0 1rem;">
   <!-- About Section -->
   <section style="margin: 3rem 0;">
-    <h2 style="text-align: center; color: #2e8b57; margin-bottom: 1.5rem;">About Me</h2>
+    <h2 style="text-align: center; color: #2e8b57; margin-bottom: 1.5rem;">About</h2>
     <p style="text-align: center; max-width: 800px; margin: 0 auto; line-height: 1.6; color: #555;">
-      I am a dedicated Computer Science lecturer and researcher at Wollo University in Ethiopia. 
-      My research focuses on Artificial Intelligence, Machine Learning, and Computer Vision, 
-      with applications addressing local and regional challenges. I am passionate about 
-      technology education and research that contributes to sustainable development in Africa.
+      Dedicated to advancing technology education and research with a focus on practical applications
+      for sustainable development.
     </p>
   </section>
   
@@ -102,8 +91,8 @@ feature_row:
 <div style="background: linear-gradient(135deg, #2e8b57 0%, #3cb371 100%); color: white; padding: 3rem 1rem; text-align: center; margin-top: 3rem;">
   <h2 style="margin-top: 0; margin-bottom: 1rem;">Interested in Collaboration?</h2>
   <p style="max-width: 600px; margin: 0 auto 1.5rem auto; opacity: 0.9;">
-    I welcome collaboration opportunities for research projects, student supervision, 
-    and academic partnerships focused on technology and development in Ethiopia.
+    Welcome collaboration opportunities for research projects, student supervision, 
+    and academic partnerships.
   </p>
   <a href="/contact/" class="btn btn--primary" style="background: white; color: #2e8b57; border: none; padding: 0.8rem 2rem; font-weight: 600;">
     Get In Touch <i class="fas fa-arrow-right"></i>
