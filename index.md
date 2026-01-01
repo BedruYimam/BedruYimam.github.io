@@ -50,7 +50,7 @@ feature_row:
 </nav>
 
 <div class="author__avatar" style="text-align: center; margin: 2rem auto;">
-  <img src="/assets/images/bedru.jpg" alt="Bedru Yimam Ahmed" class="profile-image">
+  <img src="/images/bedru.jpg" alt="Bedru Yimam Ahmed" class="profile-image">
 </div>
 
 <div style="text-align: center; margin: 2rem 0;">
