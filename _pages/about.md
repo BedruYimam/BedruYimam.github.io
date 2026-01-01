@@ -45,7 +45,7 @@ classes: wide
 .photo-card {
   background: white !important;
   border-radius: 20px !important;
-  padding: 30px !important;
+  padding: 70px !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
   text-align: center !important;
   border: 1px solid #eaeaea !important;
