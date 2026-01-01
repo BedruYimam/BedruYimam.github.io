@@ -1,58 +1,18 @@
-// Ethiopian color scheme
-$ethiopia-green: #078930;
-$ethiopia-yellow: #fadd00;
-$ethiopia-red: #da121a;
-
-// Custom styles
-.ethiopia-badge {
-  background: linear-gradient(to right, $ethiopia-green, $ethiopia-yellow, $ethiopia-red);
+/* Banner styling if no image is provided */
+.no-banner-image {
+  background: linear-gradient(135deg, #2e8b57 0%, #3cb371 100%);
   color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  display: inline-block;
-  font-weight: bold;
-}
-
-.research-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.research-area {
-  padding: 1.5rem;
-  background: #f8f9fa;
-  border-radius: 8px;
-  border-left: 4px solid $ethiopia-green;
+  padding: 4rem 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
   
-  h3 {
-    color: $ethiopia-green;
-    margin-top: 0;
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
   }
-}
-
-.publication-highlight {
-  border-left: 3px solid $ethiopia-yellow;
-  padding-left: 1rem;
-  margin: 1.5rem 0;
-}
-
-.news-item {
-  border-bottom: 1px solid #eee;
-  padding: 1rem 0;
   
-  &:last-child {
-    border-bottom: none;
-  }
-}
-
-// Header customization
-.page__hero {
-  &--overlay {
-    .page__title {
-      color: white;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    }
+  p {
+    font-size: 1.2rem;
+    opacity: 0.9;
   }
 }
