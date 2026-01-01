@@ -1,7 +1,9 @@
+
 ---
 layout: single
+
 permalink: /about/
-author_profile: false
+author_profile: false  # Changed to false to customize layout
 classes: wide
 ---
 
@@ -27,110 +29,141 @@ classes: wide
   </a>
 </nav>
 
-<div class="about-layout">
-  <!-- Biography and Details (Centered Content) -->
-  <div class="right-column">
-    
-    <!-- Biography Section -->
-    <section class="content-section">
-      <h2 class="section-title">Biography</h2>
-      <div class="biography-content">
-        <p>
-          I am a dedicated Information Technology lecturer and researcher at Wollo University in Ethiopia, specializing in Artificial Intelligence, Machine Learning, and Computer Vision. My academic journey is driven by a passion for leveraging technology to address local and regional development challenges while contributing to the advancement of information Technology education in Ethiopia.
-        </p>
-        <p>
-          With a strong commitment to both teaching and research, I strive to bridge the gap between theoretical knowledge and practical applications, preparing the next generation of Ethiopian technologists and researchers to tackle complex problems through innovative solutions.
-        </p>
+<div class="about-container" style="display: flex; flex-wrap: wrap; gap: 3rem; margin: 2rem 0;">
+
+  <!-- Left Column: Photo and Basic Info -->
+  <div class="about-photo" style="flex: 1; min-width: 300px;">
+    <div style="text-align: center;">
+      <img src="/images/bedru.jpg" alt="Bedru Yimam Ahmed" style="width: 250px; height: 250px; border-radius: 50%; border: 5px solid #2e8b57; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); margin-bottom: 1.5rem;">
+      
+      <h1 style="margin-bottom: 0.5rem; color: #2c3e50;">Bedru Yimam Ahmed</h1>
+      <h3 style="color: #2e8b57; margin-top: 0; margin-bottom: 0.5rem;">Lecturer & Researcher in Information Technology</h3>
+      
+      <p style="font-size: 1.1rem; color: #555; margin-bottom: 1rem;">
+        <i class="fas fa-university" style="color: #2e8b57;"></i> Wollo University, Dessie, Ethiopia
+      </p>
+      <p style="font-size: 1.1rem; color: #555; margin-bottom: 1.5rem;">
+        <i class="fas fa-envelope" style="color: #2e8b57;"></i> bedruy4@gmail.com
+      </p>
+      
+      <!-- Quick Contact Buttons -->
+      <div style="margin: 1.5rem 0;">
+        <a href="/assets/documents/cv.pdf" class="btn btn--primary" style="background: #2e8b57; color: white; padding: 0.8rem 1.5rem; text-decoration: none; border-radius: 30px; font-weight: 600; display: inline-block; margin: 0.5rem;">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+        <a href="/contact/" class="btn btn--primary" style="background: white; color: #2e8b57; border: 2px solid #2e8b57; padding: 0.8rem 1.5rem; text-decoration: none; border-radius: 30px; font-weight: 600; display: inline-block; margin: 0.5rem;">
+          <i class="fas fa-envelope"></i> Contact Me
+        </a>
       </div>
+    </div>
+  </div>
+
+  <!-- Right Column: Biography and Details -->
+  <div class="about-content" style="flex: 2; min-width: 300px;">
+    
+    <section style="margin-bottom: 2.5rem;">
+      <h2 style="color: #2e8b57; margin-bottom: 1.5rem;">Biography</h2>
+      <p style="line-height: 1.6; color: #555; text-align: justify;">
+        I am a dedicated Information Technology lecturer and researcher at Wollo University in Ethiopia, specializing in Artificial Intelligence, Machine Learning, and Computer Vision. My academic journey is driven by a passion for leveraging technology to address local and regional development challenges while contributing to the advancement of information Technology education in Ethiopia.
+      </p>
+      <p style="line-height: 1.6; color: #555; text-align: justify;">
+        With a strong commitment to both teaching and research, I strive to bridge the gap between theoretical knowledge and practical applications, preparing the next generation of Ethiopian technologists and researchers to tackle complex problems through innovative solutions.
+      </p>
     </section>
 
     <!-- Education Section -->
-    <section class="content-section">
-      <h2 class="section-title">Education</h2>
+    <section style="margin-bottom: 2.5rem;">
+      <h2 style="color: #2e8b57; margin-bottom: 1.5rem;">Education</h2>
       
-      <div class="education-item">
-        <h3 class="education-degree">Master of Science (MSc) in Information Technology</h3>
-        <p class="education-info">
-          <i class="fas fa-university"></i> 
+  
+      
+      <div style="background: #f8f9fa; padding: 1.5rem; border-left: 4px solid #3cb371; border-radius: 0 8px 8px 0; margin-bottom: 1rem;">
+        <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">Master of Science (MSc) in Information Technology</h3>
+        <p style="color: #555; margin-bottom: 0.3rem;">
+          <i class="fas fa-university" style="color: #3cb371; margin-right: 0.5rem;"></i> 
           BahirDar University, BahirDar, Ethiopia
         </p>
-        <p class="education-info">
-          <i class="far fa-calendar-alt"></i> 
+        <p style="color: #555; margin-bottom: 0.3rem;">
+          <i class="far fa-calendar-alt" style="color: #3cb371; margin-right: 0.5rem;"></i> 
           2019 - 2021 G.c
         </p>
-        <p class="education-info">
-          <i class="fas fa-graduation-cap"></i> 
+        <p style="color: #555; margin-bottom: 0.3rem;">
+          <i class="fas fa-graduation-cap" style="color: #3cb371; margin-right: 0.5rem;"></i> 
           Thesis: Graph-based dependency parsing for Amharic Language using Deep Learning
         </p>
       </div>
       
-      <div class="education-item">
-        <h3 class="education-degree">Bachelor of Science (BSc) in Computer Science</h3>
-        <p class="education-info">
-          <i class="fas fa-university"></i> 
+      <div style="background: #f8f9fa; padding: 1.5rem; border-left: 4px solid #2e8b57; border-radius: 0 8px 8px 0;">
+        <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">Bachelor of Science (BSc) in Computer Science</h3>
+        <p style="color: #555; margin-bottom: 0.3rem;">
+          <i class="fas fa-university" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
           Woldia University, Woldia, Ethiopia
         </p>
-        <p class="education-info">
-          <i class="far fa-calendar-alt"></i> 
+        <p style="color: #555; margin-bottom: 0.3rem;">
+          <i class="far fa-calendar-alt" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
           2013 - 2017 G.C
         </p>
       </div>
     </section>
 
     <!-- Research Focus -->
-    <section class="content-section">
-      <h2 class="section-title">Research Focus</h2>
+    <section style="margin-bottom: 2.5rem;">
+      <h2 style="color: #2e8b57; margin-bottom: 1.5rem;">Research Focus</h2>
       
-      <div class="research-grid">
-        <div class="research-card">
-          <h3>
-            <i class="fas fa-brain"></i>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem;">
+        
+        <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.05); border-top: 4px solid #2e8b57;">
+          <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">
+            <i class="fas fa-brain" style="color: #2e8b57; margin-right: 0.5rem;"></i>
             AI for Social Good
           </h3>
-          <p>
+          <p style="color: #555; line-height: 1.5; font-size: 0.95rem;">
             Developing AI solutions for agriculture, healthcare, and education in Ethiopian contexts.
           </p>
         </div>
         
-        <div class="research-card">
-          <h3>
-            <i class="fas fa-chart-line"></i>
+        <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.05); border-top: 4px solid #3cb371;">
+          <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">
+            <i class="fas fa-chart-line" style="color: #3cb371; margin-right: 0.5rem;"></i>
             Machine Learning
           </h3>
-          <p>
+          <p style="color: #555; line-height: 1.5; font-size: 0.95rem;">
             Algorithms for image analysis, predictive modeling, and natural language processing.
           </p>
         </div>
         
-        <div class="research-card">
-          <h3>
-            <i class="fas fa-language"></i>
+        <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.05); border-top: 4px solid #2e8b57;">
+          <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">
+            <i class="fas fa-language" style="color: #2e8b57; margin-right: 0.5rem;"></i>
             NLP for Ethiopian Languages
           </h3>
-          <p>
+          <p style="color: #555; line-height: 1.5; font-size: 0.95rem;">
             Computational tools and resources for Amharic and other Ethiopian languages.
           </p>
         </div>
+        
       </div>
     </section>
 
     <!-- Academic Positions -->
-    <section class="content-section">
-      <h2 class="section-title">Academic Positions</h2>
+    <section style="margin-bottom: 2.5rem;">
+      <h2 style="color: #2e8b57; margin-bottom: 1.5rem;">Academic Positions</h2>
       
-      <div class="position-card">
-        <h3>Lecturer, Department of Computer Science</h3>
-        <p class="position-info">
-          <i class="fas fa-university"></i> 
+      <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px;">
+        <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">
+          Lecturer, Department of Computer Science
+        </h3>
+        <p style="color: #555; margin-bottom: 0.5rem;">
+          <i class="fas fa-university" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
           Wollo University, Dessie, Ethiopia
         </p>
-        <p class="position-info">
-          <i class="far fa-calendar-alt"></i> 
+        <p style="color: #555; margin-bottom: 0.5rem;">
+          <i class="far fa-calendar-alt" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
           [Start Year] - Present
         </p>
         
-        <h4 class="responsibilities-title">Responsibilities:</h4>
-        <ul class="responsibilities-list">
+        <h4 style="color: #3cb371; margin-top: 1rem; margin-bottom: 0.5rem;">Responsibilities:</h4>
+        <ul style="color: #555; padding-left: 1.5rem;">
           <li>Teaching undergraduate and graduate courses in computer science</li>
           <li>Supervising student research projects and theses</li>
           <li>Developing curriculum and course materials</li>
@@ -141,7 +174,7 @@ classes: wide
     </section>
 
   </div> <!-- End of Right Column -->
-</div> <!-- End of Layout -->
+</div> <!-- End of Container -->
 
 <!-- Add Font Awesome Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -149,247 +182,17 @@ classes: wide
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 <style>
-/* CSS Variables for Consistent Styling */
-:root {
-  --primary-color: #2e8b57;
-  --secondary-color: #3cb371;
-  --dark-color: #2c3e50;
-  --text-color: #555;
-  --light-bg: #f8f9fa;
-  --white: #ffffff;
-  --shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
-  --shadow-light: 0 3px 15px rgba(0, 0, 0, 0.05);
-  --border-radius: 10px;
-  --transition: all 0.3s ease;
-}
-
-/* Main Layout Structure */
-.about-layout {
-  max-width: 1000px;
-  margin: 2rem auto;
-  padding: 0 2rem;
-}
-
-/* Centered Content Column */
-.right-column {
-  width: 100%;
-}
-
-.content-section {
-  margin-bottom: 3rem;
-  animation: fadeIn 0.5s ease-out;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Section Titles */
-.section-title {
-  color: var(--primary-color);
-  margin-bottom: 1.5rem;
-  padding-bottom: 0.5rem;
+/* Custom styles for about page */
+.page__content h2 {
+  color: #2e8b57;
   border-bottom: 2px solid #e8f5e8;
-  font-size: 1.8rem;
-  font-weight: 600;
-  position: relative;
-}
-
-.section-title::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 60px;
-  height: 2px;
-  background: var(--secondary-color);
-}
-
-/* Biography Styling */
-.biography-content {
-  background: var(--white);
-  padding: 2rem;
-  border-radius: var(--border-radius);
-  box-shadow: var(--shadow-light);
-  border-left: 4px solid var(--primary-color);
-}
-
-.biography-content p {
-  line-height: 1.7;
-  color: var(--text-color);
-  margin-bottom: 1rem;
-  text-align: justify;
-  font-size: 1.05rem;
-}
-
-.biography-content p:last-child {
-  margin-bottom: 0;
-}
-
-/* Education Styling */
-.education-item {
-  background: var(--light-bg);
-  padding: 1.8rem;
-  border-left: 4px solid var(--primary-color);
-  border-radius: 0 var(--border-radius) var(--border-radius) 0;
-  margin-bottom: 1.5rem;
-  transition: var(--transition);
-}
-
-.education-item:hover {
-  transform: translateX(5px);
-  box-shadow: var(--shadow);
-}
-
-.education-item:first-child {
-  border-left-color: var(--secondary-color);
-}
-
-.education-degree {
-  color: var(--dark-color);
+  padding-bottom: 0.5rem;
   margin-top: 0;
-  margin-bottom: 0.8rem;
-  font-size: 1.2rem;
-  font-weight: 600;
 }
 
-.education-info {
-  color: var(--text-color);
-  margin-bottom: 0.5rem;
-  display: flex;
-  align-items: flex-start;
-  gap: 0.5rem;
-  font-size: 1rem;
-}
-
-.education-info i {
-  color: var(--primary-color);
-  min-width: 20px;
-  margin-top: 0.2rem;
-}
-
-/* Research Focus */
-.research-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1rem;
-}
-
-.research-card {
-  background: var(--white);
-  padding: 2rem;
-  border-radius: var(--border-radius);
-  box-shadow: var(--shadow-light);
-  border-top: 4px solid var(--primary-color);
-  transition: var(--transition);
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.research-card:nth-child(2) {
-  border-top-color: var(--secondary-color);
-}
-
-.research-card:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow);
-}
-
-.research-card h3 {
-  color: var(--dark-color);
+.page__content h3 {
+  color: #2c3e50;
   margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  font-weight: 600;
-}
-
-.research-card i {
-  color: var(--primary-color);
-  font-size: 1.3rem;
-}
-
-.research-card:nth-child(2) i {
-  color: var(--secondary-color);
-}
-
-.research-card p {
-  color: var(--text-color);
-  line-height: 1.6;
-  font-size: 1rem;
-  margin: 0;
-  flex-grow: 1;
-}
-
-/* Academic Positions */
-.position-card {
-  background: var(--light-bg);
-  padding: 2rem;
-  border-radius: var(--border-radius);
-  border: 1px solid rgba(46, 139, 87, 0.1);
-}
-
-.position-card h3 {
-  color: var(--dark-color);
-  margin-top: 0;
-  margin-bottom: 1.2rem;
-  font-size: 1.4rem;
-  font-weight: 600;
-}
-
-.position-info {
-  color: var(--text-color);
-  margin-bottom: 0.8rem;
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  font-size: 1.05rem;
-}
-
-.position-info i {
-  color: var(--primary-color);
-  min-width: 24px;
-  text-align: center;
-}
-
-.responsibilities-title {
-  color: var(--secondary-color);
-  margin-top: 1.8rem;
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-
-.responsibilities-list {
-  color: var(--text-color);
-  padding-left: 1.5rem;
-  margin: 0;
-}
-
-.responsibilities-list li {
-  margin-bottom: 0.8rem;
-  line-height: 1.6;
-  position: relative;
-  padding-left: 0.5rem;
-}
-
-.responsibilities-list li::before {
-  content: '▸';
-  color: var(--primary-color);
-  position: absolute;
-  left: -1.2rem;
-  font-weight: bold;
 }
 
 /* Social Profiles Sidebar */
@@ -401,9 +204,9 @@ classes: wide
   z-index: 100;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
   background: rgba(255, 255, 255, 0.95);
-  padding: 15px 12px;
+  padding: 15px 10px;
   border-radius: 15px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
@@ -411,22 +214,21 @@ classes: wide
 }
 
 .social-sidebar a {
-  width: 48px;
-  height: 48px;
+  width: 45px;
+  height: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   color: white;
-  font-size: 1.3rem;
-  transition: var(--transition);
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
   text-decoration: none;
   position: relative;
 }
 
 .social-sidebar a:hover {
   transform: translateY(-3px) scale(1.1);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .social-sidebar a:hover::after {
@@ -435,29 +237,14 @@ classes: wide
   right: 100%;
   top: 50%;
   transform: translateY(-50%);
-  background: var(--primary-color);
+  background: #2e8b57;
   color: white;
-  padding: 6px 12px;
-  border-radius: 6px;
-  font-size: 0.85rem;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
   white-space: nowrap;
-  margin-right: 12px;
-  opacity: 0.95;
-  font-weight: 500;
-  z-index: 101;
-}
-
-.social-sidebar a:hover::before {
-  content: '';
-  position: absolute;
-  right: 100%;
-  top: 50%;
-  transform: translateY(-50%);
-  border-left: 6px solid var(--primary-color);
-  border-top: 6px solid transparent;
-  border-bottom: 6px solid transparent;
-  margin-right: 6px;
-  z-index: 101;
+  margin-right: 10px;
+  opacity: 0.9;
 }
 
 .social-sidebar .github { background: #333; }
@@ -465,14 +252,22 @@ classes: wide
 .social-sidebar .linkedin { background: #0077b5; }
 .social-sidebar .orcid { background: #a6ce39; }
 .social-sidebar .researchgate { background: #00d0af; }
-.social-sidebar .email { background: var(--primary-color); }
+.social-sidebar .email { background: #2e8b57; }
+
+/* Button Styles */
+.btn--primary {
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(46, 139, 87, 0.3);
+}
 
 /* Responsive Design */
 @media (max-width: 1100px) {
-  .about-layout {
-    padding: 0 1.5rem;
-  }
-  
   .social-sidebar {
     position: static;
     transform: none;
@@ -480,83 +275,30 @@ classes: wide
     justify-content: center;
     margin: 2rem auto;
     width: 90%;
-    max-width: 600px;
+    max-width: 500px;
     padding: 15px;
-    border-radius: 50px;
   }
   
   .social-sidebar a {
-    width: 45px;
-    height: 45px;
-    font-size: 1.2rem;
+    flex: 1;
+    max-width: 45px;
+  }
+  
+  .about-container {
+    flex-direction: column;
   }
 }
 
 @media (max-width: 768px) {
-  .about-layout {
-    padding: 0 1rem;
-    margin: 1rem auto;
+  .about-photo img {
+    width: 200px;
+    height: 200px;
   }
   
-  .section-title {
-    font-size: 1.6rem;
-  }
-  
-  .research-grid {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-  
-  .biography-content,
-  .education-item,
-  .position-card,
-  .research-card {
-    padding: 1.5rem;
-  }
-  
-  .social-sidebar {
-    border-radius: 25px;
-    padding: 12px;
-    gap: 8px;
-  }
-  
-  .social-sidebar a {
-    width: 40px;
-    height: 40px;
-    font-size: 1.1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .about-layout {
-    padding: 0 0.8rem;
-  }
-  
-  .section-title {
-    font-size: 1.4rem;
-  }
-  
-  .biography-content,
-  .education-item,
-  .position-card {
-    padding: 1.2rem;
-  }
-  
-  .education-degree {
-    font-size: 1.1rem;
-  }
-  
-  .education-info,
-  .position-info {
-    font-size: 0.95rem;
-  }
-  
-  .research-card h3 {
-    font-size: 1.1rem;
-  }
-  
-  .research-card p {
-    font-size: 0.95rem;
+  .btn--primary {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    text-align: center;
   }
 }
 </style>
