@@ -21,7 +21,7 @@ header:
   <a href="https://linkedin.com/in/yourprofile" target="_blank" class="linkedin" title="LinkedIn">
     <i class="fab fa-linkedin"></i>
   </a>
-  <a href="https://orcid.org/YOUR_ORCID" target="_blank" class="orcid" title="ORCID">
+  <a href="https://orcid.org/0009-0000-8174-8309" target="_blank" class="orcid" title="ORCID">
     <i class="ai ai-orcid"></i>
   </a>
   <a href="https://www.researchgate.net/profile/YOUR_PROFILE" target="_blank" class="researchgate" title="ResearchGate">
