@@ -37,12 +37,12 @@ include:
 # Author Details
 author:
   name: "Bedru Yimam Ahmed"
-  avatar: "/assets/images/bedru.jpg"
-  bio: "Lecturer & Researcher in Computer Science at Wollo University, Ethiopia. Passionate about AI, Machine Learning, and Computer Vision."
+  avatar: "images/bedru.jpg"
+  bio: "Lecturer & Researcher in Information Technology at Wollo University, Ethiopia. Passionate about AI, Machine Learning, and Computer Vision."
   pronouns: "he/him"
   location: "Dessie, Ethiopia"
   employer: "Wollo University"
-  department: "Computer Science"
+  department: "Information Technology"
   position: "Lecturer"
   email: "bedruy4@gmail.com"
   uri: "https://bedruyimam.github.io"
