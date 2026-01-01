@@ -8,22 +8,6 @@ header:
     - label: "Contact Me"
       url: "/contact/"
       btn_class: "btn--primary"
-feature_row:
-  - title: "Research"
-    excerpt: "Exploring AI, Machine Learning, and Computer Vision applications"
-    url: "/research/"
-    btn_class: "btn--primary"
-    btn_label: "Learn More"
-  - title: "Teaching"
-    excerpt: "Computer Science courses and curriculum development"
-    url: "/teaching/"
-    btn_class: "btn--primary"
-    btn_label: "View Courses"
-  - title: "Publications"
-    excerpt: "Academic papers and research publications"
-    url: "/publications/"
-    btn_class: "btn--primary"
-    btn_label: "Browse Publications"
 ---
 
 <div class="author__avatar" style="text-align: center; margin: 2rem auto;">
@@ -88,9 +72,6 @@ feature_row:
   </section>
 </div>
 
-<!-- Feature Row - This should render the three feature cards -->
-{% include feature_row %}
-
 <!-- Call to Action Section -->
 <div style="background: linear-gradient(135deg, #2e8b57 0%, #3cb371 100%); color: white; padding: 3rem 1rem; text-align: center; margin-top: 3rem;">
   <h2 style="margin-top: 0; margin-bottom: 1rem;">Interested in Collaboration?</h2>
@@ -124,26 +105,6 @@ feature_row:
   .btn--primary:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(46, 139, 87, 0.3);
-  }
-  
-  .feature__item {
-    text-align: center;
-    padding: 2rem;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .feature__item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  }
-  
-  .ai {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.2em;
   }
   
   @media (max-width: 768px) {
