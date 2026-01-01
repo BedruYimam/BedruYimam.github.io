@@ -32,25 +32,10 @@ feature_row:
     btn_label: "Browse Publications"
 ---
 
-<!-- Custom Navigation Menu -->
-<nav class="custom-nav">
-  <div class="nav-container">
-    <ul class="nav-menu">
-      <li><a href="/">Home</a></li>
-      <li><a href="/about/">About</a></li>
-      <li><a href="/research/">Research</a></li>
-      <li><a href="/publications/">Publications</a></li>
-      <li><a href="/teaching/">Teaching</a></li>
-      <li><a href="/talks/">Talks</a></li>
-      <li><a href="/portfolio/">Portfolio</a></li>
-      <li><a href="/blog/">Blog</a></li>
-      <li><a href="/contact/">Contact</a></li>
-    </ul>
-  </div>
-</nav>
+
 
 <div class="author__avatar" style="text-align: center; margin: 2rem auto;">
-  <img src="/images/bedru.jpg" alt="Bedru Yimam Ahmed" class="profile-image">
+  <img src="images/bedru.jpg" alt="Bedru Yimam Ahmed" class="profile-image">
 </div>
 
 <div style="text-align: center; margin: 2rem 0;">
