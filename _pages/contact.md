@@ -135,16 +135,6 @@ classes: wide
 - **Response time:** Within 2-3 business days
 - **Include:** Brief project summary, potential outcomes, and collaboration ideas
 
-### For Student Supervision
-- **Best contact method:** Email with academic transcript and research interests
-- **Response time:** Within 1 week during academic terms
-- **Include:** CV, academic background, and specific research interests
-
-### For Course Information
-- **Best contact method:** Email or during office hours
-- **Response time:** Within 24-48 hours
-- **Include:** Course code and specific questions
-
 ### For Speaking Engagements
 - **Best contact method:** Email with event details
 - **Response time:** Within 1 week
@@ -173,85 +163,12 @@ classes: wide
   </a>
 </div>
 
-## Frequently Asked Questions
 
-<div class="faq-item" style="margin-bottom: 1rem; border-bottom: 1px solid #eee; padding-bottom: 1rem;">
-  <h4 style="color: #2e8b57; margin-bottom: 0.5rem; cursor: pointer;" onclick="toggleFAQ(this)">
-    <i class="fas fa-chevron-right" style="margin-right: 0.5rem; transition: transform 0.3s;"></i>
-    How can I apply for graduate studies under your supervision?
-  </h4>
-  <div class="faq-answer" style="display: none; color: #555; padding-left: 1.5rem;">
-    Please send an email with your CV, academic transcripts, and a brief statement of research interests. Include why you're interested in working with me specifically and how your background aligns with my research areas.
-  </div>
-</div>
 
-<div class="faq-item" style="margin-bottom: 1rem; border-bottom: 1px solid #eee; padding-bottom: 1rem;">
-  <h4 style="color: #2e8b57; margin-bottom: 0.5rem; cursor: pointer;" onclick="toggleFAQ(this)">
-    <i class="fas fa-chevron-right" style="margin-right: 0.5rem; transition: transform 0.3s;"></i>
-    What is the typical response time for emails?
-  </h4>
-  <div class="faq-answer" style="display: none; color: #555; padding-left: 1.5rem;">
-    I typically respond to emails within 2-3 business days. During busy academic periods (exams, paper deadlines), response times may be longer. For urgent matters, please indicate "URGENT" in the subject line.
-  </div>
-</div>
 
-<div class="faq-item" style="margin-bottom: 1rem; border-bottom: 1px solid #eee; padding-bottom: 1rem;">
-  <h4 style="color: #2e8b57; margin-bottom: 0.5rem; cursor: pointer;" onclick="toggleFAQ(this)">
-    <i class="fas fa-chevron-right" style="margin-right: 0.5rem; transition: transform 0.3s;"></i>
-    Can undergraduate students work on research projects?
-  </h4>
-  <div class="faq-answer" style="display: none; color: #555; padding-left: 1.5rem;">
-    Yes, I frequently work with undergraduate students on research projects. Interested students should have completed relevant coursework and be prepared to commit significant time. Contact me with your academic background and interests.
-  </div>
-</div>
 
-<div class="faq-item" style="margin-bottom: 1rem; border-bottom: 1px solid #eee; padding-bottom: 1rem;">
-  <h4 style="color: #2e8b57; margin-bottom: 0.5rem; cursor: pointer;" onclick="toggleFAQ(this)">
-    <i class="fas fa-chevron-right" style="margin-right: 0.5rem; transition: transform 0.3s;"></i>
-    Do you accept international research collaborations?
-  </h4>
-  <div class="faq-answer" style="display: none; color: #555; padding-left: 1.5rem;">
-    Absolutely. I welcome international collaborations. Please include information about your institution, potential funding sources (if any), and specific collaboration ideas in your initial contact.
-  </div>
-</div>
 
-## Campus Location
 
-<div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 2rem 0;">
-  <h3 style="color: #2e8b57; margin-top: 0; margin-bottom: 1rem;">
-    <i class="fas fa-map-marked-alt" style="margin-right: 0.5rem;"></i> Wollo University Campus
-  </h3>
-  <p style="color: #555; margin-bottom: 1rem;">
-    <strong>Main Campus Address:</strong><br>
-    Wollo University<br>
-    P.O. Box [Box Number]<br>
-    Dessie, Ethiopia
-  </p>
-  <p style="color: #555; margin-bottom: 1rem;">
-    <strong>Department Location:</strong><br>
-    Computer Science Department<br>
-    [Building Name], Room [Room Number]<br>
-    [Specific directions if needed]
-  </p>
-  <div style="background: #e8f5e8; padding: 1rem; border-radius: 4px; margin-top: 1rem;">
-    <p style="margin: 0; color: #2e8b57; font-weight: 500;">
-      <i class="fas fa-info-circle" style="margin-right: 0.5rem;"></i>
-      For campus visits, please schedule an appointment in advance.
-    </p>
-  </div>
-</div>
-
-## Alternative Contact Methods
-
-### Department Office
-- **Department Secretary:** [Secretary Name]
-- **Department Phone:** +251 [Department Phone]
-- **Department Email:** cs@wollo.edu.et (example)
-
-### Administrative Assistant
-- **Name:** [Assistant Name]
-- **Email:** [Assistant Email]
-- **Availability:** [Days/Times]
 
 ---
 
