@@ -3,10 +3,14 @@ main:
     url: /
   - title: "About"
     url: /about/
-  - title: "Publications"
-    url: /publications/
   - title: "Research"
     url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Projects"
+    url: /projects/
   - title: "CV"
     url: /files/cv.pdf
   - title: "Blog"
