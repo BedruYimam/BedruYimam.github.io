@@ -73,7 +73,7 @@ header:
 </div>
 
 <!-- Call to Action Section -->
-<div style=" bacground:white; color: brown; padding: 3rem 1rem; text-align: center; margin-top: 3rem;">
+<div style="background: #e8f5e8; color: brown; padding: 3rem 1rem; text-align: center; margin-top: 3rem;">
   <h2 style="margin-top: 0; margin-bottom: 1rem;">Interested in Collaboration?</h2>
   <p style="max-width: 600px; margin: 0 auto 1.5rem auto; opacity: 0.9;">
     I welcome collaboration opportunities for research projects, student supervision, 
