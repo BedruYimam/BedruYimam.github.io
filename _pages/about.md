@@ -67,7 +67,7 @@ classes: wide
         </div>
         
         <div style="background: #f8f9fa; padding: 1.5rem; border-left: 4px solid #2e8b57; border-radius: 0 8px 8px 0; text-align: left;">
-          <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">Bachelor of Science (BSc) in Computer Science</h3>
+          <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">Bachelor of Science (BSc) in Information Technology</h3>
           <p style="color: #555; margin-bottom: 0.3rem;">
             <i class="fas fa-university" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
             Woldia University, Woldia, Ethiopia
@@ -128,7 +128,7 @@ classes: wide
       <div style="max-width: 800px; margin: 0 auto;">
         <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; text-align: left;">
           <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">
-            Lecturer, Department of Computer Science
+            Lecturer, Department of Information Technology
           </h3>
           <p style="color: #555; margin-bottom: 0.5rem;">
             <i class="fas fa-university" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
@@ -136,17 +136,10 @@ classes: wide
           </p>
           <p style="color: #555; margin-bottom: 0.5rem;">
             <i class="far fa-calendar-alt" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
-            [Start Year] - Present
+            2018 - Present
           </p>
           
-          <h4 style="color: #3cb371; margin-top: 1rem; margin-bottom: 0.5rem;">Responsibilities:</h4>
-          <ul style="color: #555; padding-left: 1.5rem;">
-            <li>Teaching undergraduate and graduate courses in computer science</li>
-            <li>Supervising student research projects and theses</li>
-            <li>Developing curriculum and course materials</li>
-            <li>Conducting research in AI and related fields</li>
-            <li>Participating in departmental and university committees</li>
-          </ul>
+        
         </div>
       </div>
     </section>
