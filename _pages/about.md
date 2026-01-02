@@ -29,32 +29,6 @@ classes: wide
 
 <div class="about-container" style="display: flex; flex-wrap: wrap; gap: 4rem; margin: 2rem 0; max-width: 1400px; margin-left: auto; margin-right: auto;">
 
-  <!-- Left Column: Photo and Basic Info -->
-  <div class="about-photo" style="flex: 1; min-width: 300px; max-width: 400px;">
-    <div style="text-align: center; position: sticky; top: 2rem;">
-      <img src="/images/bedru.jpg" alt="Bedru Yimam Ahmed" style="width: 250px; height: 250px; border-radius: 50%; border: 5px solid #2e8b57; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); margin-bottom: 1.5rem;">
-      
-      <h1 style="margin-bottom: 0.5rem; color: #2c3e50;">Bedru Yimam Ahmed</h1>
-      <h3 style="color: #2e8b57; margin-top: 0; margin-bottom: 0.5rem;">Lecturer & Researcher in Information Technology</h3>
-      
-      <p style="font-size: 1.1rem; color: #555; margin-bottom: 1rem;">
-        <i class="fas fa-university" style="color: #2e8b57;"></i> Wollo University, Dessie, Ethiopia
-      </p>
-      <p style="font-size: 1.1rem; color: #555; margin-bottom: 1.5rem;">
-        <i class="fas fa-envelope" style="color: #2e8b57;"></i> bedruy4@gmail.com
-      </p>
-      
-      <!-- Quick Contact Buttons -->
-      <div style="margin: 1.5rem 0;">
-        <a href="/assets/documents/cv.pdf" class="btn btn--primary" style="background: #2e8b57; color: white; padding: 0.8rem 1.5rem; text-decoration: none; border-radius: 30px; font-weight: 600; display: inline-block; margin: 0.5rem;">
-          <i class="fas fa-download"></i> Download CV
-        </a>
-        <a href="/contact/" class="btn btn--primary" style="background: white; color: #2e8b57; border: 2px solid #2e8b57; padding: 0.8rem 1.5rem; text-decoration: none; border-radius: 30px; font-weight: 600; display: inline-block; margin: 0.5rem;">
-          <i class="fas fa-envelope"></i> Contact Me
-        </a>
-      </div>
-    </div>
-  </div>
 
   <!-- Right Column: Biography and Details - Centered Content -->
   <div class="about-content" style="flex: 2; min-width: 300px; max-width: 800px; margin: 0 auto;">
