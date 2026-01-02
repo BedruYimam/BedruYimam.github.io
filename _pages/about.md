@@ -1,8 +1,7 @@
 ---
 layout: single
-
 permalink: /about/
-author_profile: false  # Changed to false to customize layout
+author_profile: false
 classes: wide
 ---
 
@@ -28,11 +27,11 @@ classes: wide
   </a>
 </nav>
 
-<div class="about-container" style="display: flex; flex-wrap: wrap; gap: 3rem; margin: 2rem 0;">
+<div class="about-container" style="display: flex; flex-wrap: wrap; gap: 4rem; margin: 2rem 0; max-width: 1400px; margin-left: auto; margin-right: auto;">
 
   <!-- Left Column: Photo and Basic Info -->
-  <div class="about-photo" style="flex: 1; min-width: 300px;">
-    <div style="text-align: center;">
+  <div class="about-photo" style="flex: 1; min-width: 300px; max-width: 400px;">
+    <div style="text-align: center; position: sticky; top: 2rem;">
       <img src="/images/bedru.jpg" alt="Bedru Yimam Ahmed" style="width: 250px; height: 250px; border-radius: 50%; border: 5px solid #2e8b57; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); margin-bottom: 1.5rem;">
       
       <h1 style="margin-bottom: 0.5rem; color: #2c3e50;">Bedru Yimam Ahmed</h1>
@@ -57,118 +56,124 @@ classes: wide
     </div>
   </div>
 
-  <!-- Right Column: Biography and Details -->
-  <div class="about-content" style="flex: 2; min-width: 300px;">
+  <!-- Right Column: Biography and Details - Centered Content -->
+  <div class="about-content" style="flex: 2; min-width: 300px; max-width: 800px; margin: 0 auto;">
     
-    <section style="margin-bottom: 2.5rem;">
-      <h2 style="color: #2e8b57; margin-bottom: 1.5rem;">Biography</h2>
-      <p style="line-height: 1.6; color: #555; text-align: justify;">
-        I am a dedicated Information Technology lecturer and researcher at Wollo University in Ethiopia, specializing in Artificial Intelligence, Machine Learning, and Computer Vision. My academic journey is driven by a passion for leveraging technology to address local and regional development challenges while contributing to the advancement of information Technology education in Ethiopia.
-      </p>
-      <p style="line-height: 1.6; color: #555; text-align: justify;">
-        With a strong commitment to both teaching and research, I strive to bridge the gap between theoretical knowledge and practical applications, preparing the next generation of Ethiopian technologists and researchers to tackle complex problems through innovative solutions.
-      </p>
+    <section style="margin-bottom: 2.5rem; text-align: center;">
+      <h2 style="color: #2e8b57; margin-bottom: 1.5rem; text-align: center;">Biography</h2>
+      <div style="max-width: 800px; margin: 0 auto; text-align: left;">
+        <p style="line-height: 1.6; color: #555; margin-bottom: 1.5rem;">
+          I am a dedicated Information Technology lecturer and researcher at Wollo University in Ethiopia, specializing in Artificial Intelligence, Machine Learning, and Computer Vision. My academic journey is driven by a passion for leveraging technology to address local and regional development challenges while contributing to the advancement of information Technology education in Ethiopia.
+        </p>
+        <p style="line-height: 1.6; color: #555;">
+          With a strong commitment to both teaching and research, I strive to bridge the gap between theoretical knowledge and practical applications, preparing the next generation of Ethiopian technologists and researchers to tackle complex problems through innovative solutions.
+        </p>
+      </div>
     </section>
 
     <!-- Education Section -->
-    <section style="margin-bottom: 2.5rem;">
-      <h2 style="color: #2e8b57; margin-bottom: 1.5rem;">Education</h2>
+    <section style="margin-bottom: 2.5rem; text-align: center;">
+      <h2 style="color: #2e8b57; margin-bottom: 1.5rem; text-align: center;">Education</h2>
       
-  
-      
-      <div style="background: #f8f9fa; padding: 1.5rem; border-left: 4px solid #3cb371; border-radius: 0 8px 8px 0; margin-bottom: 1rem;">
-        <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">Master of Science (MSc) in Information Technology</h3>
-        <p style="color: #555; margin-bottom: 0.3rem;">
-          <i class="fas fa-university" style="color: #3cb371; margin-right: 0.5rem;"></i> 
-          BahirDar University, BahirDar, Ethiopia
-        </p>
-        <p style="color: #555; margin-bottom: 0.3rem;">
-          <i class="far fa-calendar-alt" style="color: #3cb371; margin-right: 0.5rem;"></i> 
-          2019 - 2021 G.c
-        </p>
-        <p style="color: #555; margin-bottom: 0.3rem;">
-          <i class="fas fa-graduation-cap" style="color: #3cb371; margin-right: 0.5rem;"></i> 
-          Thesis: Graph-based dependency parsing for Amharic Language using Deep Learning
-        </p>
-      </div>
-      
-      <div style="background: #f8f9fa; padding: 1.5rem; border-left: 4px solid #2e8b57; border-radius: 0 8px 8px 0;">
-        <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">Bachelor of Science (BSc) in Computer Science</h3>
-        <p style="color: #555; margin-bottom: 0.3rem;">
-          <i class="fas fa-university" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
-          Woldia University, Woldia, Ethiopia
-        </p>
-        <p style="color: #555; margin-bottom: 0.3rem;">
-          <i class="far fa-calendar-alt" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
-          2013 - 2017 G.C
-        </p>
+      <div style="max-width: 800px; margin: 0 auto;">
+        <div style="background: #f8f9fa; padding: 1.5rem; border-left: 4px solid #3cb371; border-radius: 0 8px 8px 0; margin-bottom: 1rem; text-align: left;">
+          <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">Master of Science (MSc) in Information Technology</h3>
+          <p style="color: #555; margin-bottom: 0.3rem;">
+            <i class="fas fa-university" style="color: #3cb371; margin-right: 0.5rem;"></i> 
+            BahirDar University, BahirDar, Ethiopia
+          </p>
+          <p style="color: #555; margin-bottom: 0.3rem;">
+            <i class="far fa-calendar-alt" style="color: #3cb371; margin-right: 0.5rem;"></i> 
+            2019 - 2021 G.c
+          </p>
+          <p style="color: #555; margin-bottom: 0.3rem;">
+            <i class="fas fa-graduation-cap" style="color: #3cb371; margin-right: 0.5rem;"></i> 
+            Thesis: Graph-based dependency parsing for Amharic Language using Deep Learning
+          </p>
+        </div>
+        
+        <div style="background: #f8f9fa; padding: 1.5rem; border-left: 4px solid #2e8b57; border-radius: 0 8px 8px 0; text-align: left;">
+          <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">Bachelor of Science (BSc) in Computer Science</h3>
+          <p style="color: #555; margin-bottom: 0.3rem;">
+            <i class="fas fa-university" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
+            Woldia University, Woldia, Ethiopia
+          </p>
+          <p style="color: #555; margin-bottom: 0.3rem;">
+            <i class="far fa-calendar-alt" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
+            2013 - 2017 G.C
+          </p>
+        </div>
       </div>
     </section>
 
     <!-- Research Focus -->
-    <section style="margin-bottom: 2.5rem;">
-      <h2 style="color: #2e8b57; margin-bottom: 1.5rem;">Research Focus</h2>
+    <section style="margin-bottom: 2.5rem; text-align: center;">
+      <h2 style="color: #2e8b57; margin-bottom: 1.5rem; text-align: center;">Research Focus</h2>
       
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem;">
-        
-        <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.05); border-top: 4px solid #2e8b57;">
-          <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">
-            <i class="fas fa-brain" style="color: #2e8b57; margin-right: 0.5rem;"></i>
-            AI for Social Good
-          </h3>
-          <p style="color: #555; line-height: 1.5; font-size: 0.95rem;">
-            Developing AI solutions for agriculture, healthcare, and education in Ethiopian contexts.
-          </p>
+      <div style="max-width: 800px; margin: 0 auto;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem;">
+          
+          <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.05); border-top: 4px solid #2e8b57; text-align: left;">
+            <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">
+              <i class="fas fa-brain" style="color: #2e8b57; margin-right: 0.5rem;"></i>
+              AI for Social Good
+            </h3>
+            <p style="color: #555; line-height: 1.5; font-size: 0.95rem;">
+              Developing AI solutions for agriculture, healthcare, and education in Ethiopian contexts.
+            </p>
+          </div>
+          
+          <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.05); border-top: 4px solid #3cb371; text-align: left;">
+            <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">
+              <i class="fas fa-chart-line" style="color: #3cb371; margin-right: 0.5rem;"></i>
+              Machine Learning
+            </h3>
+            <p style="color: #555; line-height: 1.5; font-size: 0.95rem;">
+              Algorithms for image analysis, predictive modeling, and natural language processing.
+            </p>
+          </div>
+          
+          <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.05); border-top: 4px solid #2e8b57; text-align: left;">
+            <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">
+              <i class="fas fa-language" style="color: #2e8b57; margin-right: 0.5rem;"></i>
+              NLP for Ethiopian Languages
+            </h3>
+            <p style="color: #555; line-height: 1.5; font-size: 0.95rem;">
+              Computational tools and resources for Amharic and other Ethiopian languages.
+            </p>
+          </div>
+          
         </div>
-        
-        <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.05); border-top: 4px solid #3cb371;">
-          <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">
-            <i class="fas fa-chart-line" style="color: #3cb371; margin-right: 0.5rem;"></i>
-            Machine Learning
-          </h3>
-          <p style="color: #555; line-height: 1.5; font-size: 0.95rem;">
-            Algorithms for image analysis, predictive modeling, and natural language processing.
-          </p>
-        </div>
-        
-        <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.05); border-top: 4px solid #2e8b57;">
-          <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">
-            <i class="fas fa-language" style="color: #2e8b57; margin-right: 0.5rem;"></i>
-            NLP for Ethiopian Languages
-          </h3>
-          <p style="color: #555; line-height: 1.5; font-size: 0.95rem;">
-            Computational tools and resources for Amharic and other Ethiopian languages.
-          </p>
-        </div>
-        
       </div>
     </section>
 
     <!-- Academic Positions -->
-    <section style="margin-bottom: 2.5rem;">
-      <h2 style="color: #2e8b57; margin-bottom: 1.5rem;">Academic Positions</h2>
+    <section style="margin-bottom: 2.5rem; text-align: center;">
+      <h2 style="color: #2e8b57; margin-bottom: 1.5rem; text-align: center;">Academic Positions</h2>
       
-      <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px;">
-        <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">
-          Lecturer, Department of Computer Science
-        </h3>
-        <p style="color: #555; margin-bottom: 0.5rem;">
-          <i class="fas fa-university" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
-          Wollo University, Dessie, Ethiopia
-        </p>
-        <p style="color: #555; margin-bottom: 0.5rem;">
-          <i class="far fa-calendar-alt" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
-          [Start Year] - Present
-        </p>
-        
-        <h4 style="color: #3cb371; margin-top: 1rem; margin-bottom: 0.5rem;">Responsibilities:</h4>
-        <ul style="color: #555; padding-left: 1.5rem;">
-          <li>Teaching undergraduate and graduate courses in computer science</li>
-          <li>Supervising student research projects and theses</li>
-          <li>Developing curriculum and course materials</li>
-          <li>Conducting research in AI and related fields</li>
-          <li>Participating in departmental and university committees</li>
-        </ul>
+      <div style="max-width: 800px; margin: 0 auto;">
+        <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; text-align: left;">
+          <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 0.5rem;">
+            Lecturer, Department of Computer Science
+          </h3>
+          <p style="color: #555; margin-bottom: 0.5rem;">
+            <i class="fas fa-university" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
+            Wollo University, Dessie, Ethiopia
+          </p>
+          <p style="color: #555; margin-bottom: 0.5rem;">
+            <i class="far fa-calendar-alt" style="color: #2e8b57; margin-right: 0.5rem;"></i> 
+            [Start Year] - Present
+          </p>
+          
+          <h4 style="color: #3cb371; margin-top: 1rem; margin-bottom: 0.5rem;">Responsibilities:</h4>
+          <ul style="color: #555; padding-left: 1.5rem;">
+            <li>Teaching undergraduate and graduate courses in computer science</li>
+            <li>Supervising student research projects and theses</li>
+            <li>Developing curriculum and course materials</li>
+            <li>Conducting research in AI and related fields</li>
+            <li>Participating in departmental and university committees</li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -265,7 +270,23 @@ classes: wide
   box-shadow: 0 5px 15px rgba(46, 139, 87, 0.3);
 }
 
+/* Main content centering */
+.about-content {
+  text-align: center;
+}
+
+.about-content section {
+  text-align: center;
+}
+
 /* Responsive Design */
+@media (max-width: 1200px) {
+  .about-container {
+    gap: 3rem;
+    padding: 0 1rem;
+  }
+}
+
 @media (max-width: 1100px) {
   .social-sidebar {
     position: static;
@@ -285,6 +306,16 @@ classes: wide
   
   .about-container {
     flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-photo {
+    position: static !important;
+    max-width: 100% !important;
+  }
+  
+  .about-content {
+    max-width: 100% !important;
   }
 }
 
@@ -298,6 +329,10 @@ classes: wide
     width: 100%;
     margin-bottom: 0.5rem;
     text-align: center;
+  }
+  
+  .about-content section > div {
+    text-align: left;
   }
 }
 </style>
